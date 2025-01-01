@@ -1,0 +1,233 @@
+(footprint "Pinbar_1-6-f-a"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.35 1.905 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d4b8a04f-e9d4-4ade-b228-e318e3ef1389")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify top)
+		)
+	)
+	(property "Value" "Pinbar_1-6-f-a"
+		(at 6.35 3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "51da2626-56f4-47bf-8ffd-3180d7a62896")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify top)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d709ff6a-e216-4704-b5ae-237f05793a78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cba212b9-9fbb-4298-8b2c-0f7d5365f264")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6664e6ae-f023-40fb-9049-08821ab4d45d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.27 -1.27)
+		(end 13.97 1.27)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7ed631c9-dc5a-44ec-996b-ed2c9873c159")
+	)
+	(fp_text user "0"
+		(at 2.54 1.905 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "1ab4d9e7-e627-42a0-9529-d93b0b2d8167")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify top mirror)
+		)
+	)
+	(fp_text user "2"
+		(at 12.7 1.905 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "4d97746c-728b-4e24-81eb-75d2e3114f66")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify top mirror)
+		)
+	)
+	(fp_text user "1"
+		(at 10.16 1.905 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "5fc9784c-48c0-4ad3-a45d-86577152bc21")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify top mirror)
+		)
+	)
+	(fp_text user "+"
+		(at 5.08 1.905 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "958a7cc1-d337-4f9c-84e2-a69e9dee1e99")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify top mirror)
+		)
+	)
+	(fp_text user "9"
+		(at 0 1.905 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "dad13eb2-8ecc-4b39-88bc-6afeb8a08520")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify top mirror)
+		)
+	)
+	(fp_text user ","
+		(at 7.62 1.905 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "e06145c5-bc4a-48a3-a20b-30ec6b81b62e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify top mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.35 4.445 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7475a96d-e683-463d-9b55-ad2c32531643")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify top)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "950738b1-fd7c-4eb1-891a-694ca58f73e6")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "f30d117a-5302-4d31-a9d8-45635cda9898")
+	)
+	(pad "3" thru_hole rect
+		(at 5.08 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "9b81a3e6-d952-4116-8fbe-a37b6077b5f3")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "d2882de3-7395-4a0e-9631-aea6a6637381")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "78dc4b49-30da-4734-8443-90537976920e")
+	)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "efc9c3a3-8683-4035-b571-d33113aa9038")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

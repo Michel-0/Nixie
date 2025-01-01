@@ -1,0 +1,9160 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5e5bb708-79ad-4132-bc77-37edca4126ac")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x06_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Socket"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_Socket_1_1"
+				(arc
+					(start 0 -7.112)
+					(mid -0.5058 -7.62)
+					(end 0 -8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.588)
+					(mid -0.5058 5.08)
+					(end 0 4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Interface_Expansion:MCP23008-xP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP23008-xP"
+				(at 8.89 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf"
+				(at 33.02 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8-bit I/O expander, I2C, interrupts, PDIP-18"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C parallel port expander"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP23008-xP_0_1"
+				(rectangle
+					(start -10.16 12.7)
+					(end 10.16 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP23008-xP_1_1"
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "GP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "GP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "GP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "GP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "GP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "GP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "GP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "GP7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 -2.54 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "INT" open_collector line)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Interface_Expansion:MCP23017_SP"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -11.43 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP23017_SP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+				(at 5.08 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf"
+				(at 5.08 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C parallel port expander"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP23017_SP_0_1"
+				(rectangle
+					(start -12.7 22.86)
+					(end 12.7 -22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP23017_SP_1_1"
+				(pin bidirectional line
+					(at 17.78 20.32 180)
+					(length 5.08)
+					(name "GPB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 15.24 0)
+					(length 5.08) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 17.78 0)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 20.32 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 12.7 0)
+					(length 5.08) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -20.32 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -17.78 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -15.24 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "INTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 17.78 180)
+					(length 5.08)
+					(name "GPB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "INTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "GPA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "GPA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GPA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GPA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(name "GPA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -15.24 180)
+					(length 5.08)
+					(name "GPA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -17.78 180)
+					(length 5.08)
+					(name "GPA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -20.32 180)
+					(length 5.08)
+					(name "GPA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "GPB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "GPB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "GPB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "GPB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "GPB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "GPB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 27.94 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Nixie:Pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "E"
+				(at 4.064 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pin_0_1"
+				(circle
+					(center 2.54 0)
+					(radius 0.75)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Pin_1_1"
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:MPSA42"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MPSA42"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN High Voltage Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MPSA42_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MPSA42_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 196.85 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ab3e2aa-0e68-4ca7-bcba-1abb4611b988")
+	)
+	(junction
+		(at 158.75 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c5fdb52-f22b-483f-b07c-253c2625fc90")
+	)
+	(junction
+		(at 209.55 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10ed914d-b7ac-4921-9fe0-d04aa5ee5a9a")
+	)
+	(junction
+		(at 86.36 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14d8548c-90e0-4313-94f7-192ac9c2c83a")
+	)
+	(junction
+		(at 101.6 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23a72537-bad2-4441-b090-308e5ee90ff2")
+	)
+	(junction
+		(at 86.36 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c97ced2-590d-4036-9263-7df0c6583533")
+	)
+	(junction
+		(at 49.53 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ce80d3d-5d71-4760-b809-5203379cea0d")
+	)
+	(junction
+		(at 158.75 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bc590a3-f450-4315-8710-12a7bbfdc311")
+	)
+	(junction
+		(at 222.25 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e55ae41-2482-4380-8c99-29705cd92ace")
+	)
+	(junction
+		(at 260.35 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50df434c-10c7-4c65-a8a7-cebe243b0e2b")
+	)
+	(junction
+		(at 49.53 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "522207c4-e640-4c58-9917-3ab040d314ae")
+	)
+	(junction
+		(at 146.05 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58224a8b-820e-4045-8b74-fb862f478017")
+	)
+	(junction
+		(at 184.15 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ea5948f-2a28-4a8b-ab08-bf86f2d97974")
+	)
+	(junction
+		(at 46.99 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "638e0706-15b2-468e-bfde-483c1a9ba242")
+	)
+	(junction
+		(at 184.15 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ce4431a-c078-45fd-bc25-c1270573d61f")
+	)
+	(junction
+		(at 209.55 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cfc14c2-d818-42dc-848b-7ed934806b81")
+	)
+	(junction
+		(at 52.07 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8411b4be-30d7-45eb-b50c-e95491c81b0e")
+	)
+	(junction
+		(at 222.25 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "972c2302-6814-4ea6-bfdd-e78dde05e2e3")
+	)
+	(junction
+		(at 86.36 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a9adc5a-d3b9-44d2-bc49-249588b94735")
+	)
+	(junction
+		(at 146.05 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d72a6e7-c0e9-4190-a2c2-a9b19ed57ab0")
+	)
+	(junction
+		(at 133.35 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa32cd44-faa0-4a75-ab43-8e6c80b4070d")
+	)
+	(junction
+		(at 260.35 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab79496e-5685-45a2-a062-56287ccc368d")
+	)
+	(junction
+		(at 196.85 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acb4bbee-5cee-49dd-b553-40a514f43df6")
+	)
+	(junction
+		(at 81.28 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad577c71-b225-43f4-91c0-6310acea96a3")
+	)
+	(junction
+		(at 83.82 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b167c32e-fa5d-4bab-8273-c7d6dbc4aacd")
+	)
+	(junction
+		(at 44.45 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7811a3c-a4cb-44b5-9abe-4d5b0c14c6e5")
+	)
+	(junction
+		(at 52.07 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca7981f2-5b60-4064-8b9b-c78b4afcaf06")
+	)
+	(junction
+		(at 133.35 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce563adb-b89f-4157-bcbb-009978a472c5")
+	)
+	(junction
+		(at 234.95 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d23d6f6e-44b1-4719-9c78-865af550583a")
+	)
+	(junction
+		(at 49.53 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6722cbf-baf2-4556-a282-0e144ae3cf20")
+	)
+	(junction
+		(at 247.65 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ded15bff-a32b-4519-bd59-c609b9817c4c")
+	)
+	(junction
+		(at 247.65 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "def4159f-aaa8-4f9a-8de7-52d6c420470b")
+	)
+	(junction
+		(at 234.95 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfbc8848-89d8-46be-b701-1413f3fdde47")
+	)
+	(junction
+		(at 52.07 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0013066-cf24-4a40-8d6d-e9afcf77fefd")
+	)
+	(junction
+		(at 72.39 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e12d0101-93df-4785-9006-26d25f3eeef3")
+	)
+	(wire
+		(pts
+			(xy 247.65 109.22) (xy 217.17 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e539e8-f3da-444a-a1dc-24bd5ca01eaa")
+	)
+	(wire
+		(pts
+			(xy 260.35 24.13) (xy 219.71 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0355eb2c-7c25-4806-80ed-f45bd9aaab6b")
+	)
+	(wire
+		(pts
+			(xy 151.13 54.61) (xy 118.11 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035d4337-6589-4d02-82d3-e2799dfc19a0")
+	)
+	(wire
+		(pts
+			(xy 209.55 92.71) (xy 222.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b1a896-b7fa-4aea-804f-1173cdf7af73")
+	)
+	(wire
+		(pts
+			(xy 184.15 92.71) (xy 184.15 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c7da65-7037-4333-8dd8-519b88d0a81b")
+	)
+	(wire
+		(pts
+			(xy 102.87 124.46) (xy 90.17 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066154d9-47af-430a-a713-95c3fdc86293")
+	)
+	(wire
+		(pts
+			(xy 184.15 176.53) (xy 196.85 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aedaf21-9423-40be-8650-e230686079b5")
+	)
+	(wire
+		(pts
+			(xy 151.13 80.01) (xy 151.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6fa317-f27b-4a98-98cd-f30c45dc884d")
+	)
+	(wire
+		(pts
+			(xy 163.83 146.05) (xy 163.83 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0502bb-b00f-4c46-becd-657b7a2d2047")
+	)
+	(wire
+		(pts
+			(xy 125.73 109.22) (xy 125.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca4aef8-c6b5-4b2a-97aa-0cb0e0c6c4bb")
+	)
+	(wire
+		(pts
+			(xy 214.63 156.21) (xy 214.63 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ceee4dd-ad3a-4159-bf6e-36a1d1e56718")
+	)
+	(wire
+		(pts
+			(xy 138.43 80.01) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d53dabd-5316-4f62-a433-01b6dd39c408")
+	)
+	(wire
+		(pts
+			(xy 201.93 72.39) (xy 201.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d91377a-ec72-4e64-b321-1f7f25838d79")
+	)
+	(wire
+		(pts
+			(xy 151.13 69.85) (xy 151.13 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db3ff0f-474f-49ca-a362-03d4b33ec86c")
+	)
+	(wire
+		(pts
+			(xy 222.25 163.83) (xy 222.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f05f5da-a2ac-4cbf-9591-40e6ee387892")
+	)
+	(wire
+		(pts
+			(xy 219.71 106.68) (xy 219.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2905a2-d882-468c-85f8-6f0c3dee65e0")
+	)
+	(wire
+		(pts
+			(xy 128.27 143.51) (xy 151.13 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb181c7-4cbc-4bc3-bd99-75d34feba120")
+	)
+	(wire
+		(pts
+			(xy 97.79 119.38) (xy 90.17 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe9f5f5-4451-4f69-9bf5-82842cd2cccd")
+	)
+	(wire
+		(pts
+			(xy 184.15 163.83) (xy 184.15 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f59ecf-d8bc-4bf4-8e04-46b240e6e4e4")
+	)
+	(wire
+		(pts
+			(xy 222.25 114.3) (xy 212.09 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130744fc-e5a1-45a4-b564-a6c1e02fd33c")
+	)
+	(wire
+		(pts
+			(xy 19.05 39.37) (xy 44.45 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13968e31-2660-47a6-847d-e0c68aa032a1")
+	)
+	(wire
+		(pts
+			(xy 83.82 29.21) (xy 83.82 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c38f99-460c-4ed3-9d14-c3c8a3c73021")
+	)
+	(wire
+		(pts
+			(xy 125.73 96.52) (xy 125.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1617b4e9-839a-4247-bc75-aea7ee066748")
+	)
+	(wire
+		(pts
+			(xy 44.45 39.37) (xy 88.9 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1798c437-149f-4661-9ea7-910a4bb8a982")
+	)
+	(wire
+		(pts
+			(xy 265.43 80.01) (xy 265.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17cfe87d-60ae-48f1-b419-9c6939d9830e")
+	)
+	(wire
+		(pts
+			(xy 151.13 143.51) (xy 151.13 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195de65e-9d90-46b0-8ea2-608c7a8de736")
+	)
+	(wire
+		(pts
+			(xy 184.15 92.71) (xy 158.75 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195ec165-c96f-4335-8afb-6da17352866c")
+	)
+	(wire
+		(pts
+			(xy 72.39 104.14) (xy 72.39 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aec7d6e-974f-484a-a418-e74943f311f9")
+	)
+	(wire
+		(pts
+			(xy 52.07 104.14) (xy 52.07 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0ae72e-d5ef-4e1f-9dbb-bcb3929453fa")
+	)
+	(wire
+		(pts
+			(xy 176.53 163.83) (xy 176.53 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b77ef3e-6a49-4819-ab96-cbcad09d9e49")
+	)
+	(wire
+		(pts
+			(xy 247.65 92.71) (xy 234.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3650a5-b311-49ec-a46d-62a357b64d87")
+	)
+	(wire
+		(pts
+			(xy 214.63 127) (xy 107.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5e841d-4916-4ea5-8c9f-c8b10bde6b6b")
+	)
+	(wire
+		(pts
+			(xy 184.15 173.99) (xy 184.15 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d216eed-c4a0-4e58-aa64-460ccbf5054b")
+	)
+	(wire
+		(pts
+			(xy 146.05 92.71) (xy 146.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ebe3009-cafd-4013-bdab-99972b75fb94")
+	)
+	(wire
+		(pts
+			(xy 265.43 163.83) (xy 265.43 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204d4af1-9f54-41e3-af4b-7465397cf82d")
+	)
+	(wire
+		(pts
+			(xy 146.05 80.01) (xy 146.05 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ba2a0c-85e9-452b-886e-02d3e980bbc9")
+	)
+	(wire
+		(pts
+			(xy 86.36 34.29) (xy 88.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d34aa5-c49c-4ca2-b039-a1da9e9f57cc")
+	)
+	(wire
+		(pts
+			(xy 273.05 21.59) (xy 273.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21068fd1-5362-4f6d-b509-278cc6c2efc1")
+	)
+	(wire
+		(pts
+			(xy 240.03 156.21) (xy 240.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21914af0-50b7-4852-ab72-6483c5e5e519")
+	)
+	(wire
+		(pts
+			(xy 52.07 137.16) (xy 54.61 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22dd6601-e7dc-4907-ada9-686efe4c08b7")
+	)
+	(wire
+		(pts
+			(xy 227.33 72.39) (xy 227.33 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b7bb52-9afe-4bab-b33b-fc69aea5ac15")
+	)
+	(wire
+		(pts
+			(xy 146.05 176.53) (xy 158.75 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db329ac-52fd-4289-bff4-299c354fe338")
+	)
+	(wire
+		(pts
+			(xy 260.35 176.53) (xy 260.35 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e41ea58-81cd-468b-a1e0-531fa795647b")
+	)
+	(wire
+		(pts
+			(xy 163.83 153.67) (xy 163.83 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30029d23-a942-450b-8e8c-211e589d4876")
+	)
+	(wire
+		(pts
+			(xy 146.05 173.99) (xy 146.05 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30681ddd-c418-47b1-a303-82d085dd5fd6")
+	)
+	(wire
+		(pts
+			(xy 196.85 173.99) (xy 196.85 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e130e3-1956-4578-a03c-9acea75cc706")
+	)
+	(wire
+		(pts
+			(xy 222.25 31.75) (xy 212.09 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326e5269-afb7-4748-971b-7db9621fd73a")
+	)
+	(wire
+		(pts
+			(xy 97.79 116.84) (xy 97.79 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a3aaab-f990-4f0f-b029-d1d309f2539c")
+	)
+	(wire
+		(pts
+			(xy 90.17 149.86) (xy 125.73 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ec0b25-3353-4bd6-a3b4-b018d913c732")
+	)
+	(wire
+		(pts
+			(xy 81.28 13.97) (xy 81.28 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3377d99c-3fe6-4eab-a6c3-8b313b056bbc")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 138.43 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344f1e30-9b3f-4a59-813c-1a2fe5b675fd")
+	)
+	(wire
+		(pts
+			(xy 19.05 26.67) (xy 52.07 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3467cf98-861a-44db-8936-43fdcd6b5f5e")
+	)
+	(wire
+		(pts
+			(xy 46.99 116.84) (xy 54.61 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c49812-004f-4c13-a386-e8c5e629a216")
+	)
+	(wire
+		(pts
+			(xy 140.97 26.67) (xy 140.97 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e1854c-a381-4c75-9ee3-4be70b5e099b")
+	)
+	(wire
+		(pts
+			(xy 151.13 62.23) (xy 151.13 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35fafba8-9e0c-4567-b668-960a059946ed")
+	)
+	(wire
+		(pts
+			(xy 146.05 104.14) (xy 146.05 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3add81d8-3c80-498f-b224-ec17466cb32a")
+	)
+	(wire
+		(pts
+			(xy 247.65 176.53) (xy 260.35 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1d7204-6259-464a-adbd-b0dc0246621a")
+	)
+	(wire
+		(pts
+			(xy 138.43 72.39) (xy 138.43 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b86d92d-03f8-45a2-a6f0-4d0648535a1a")
+	)
+	(wire
+		(pts
+			(xy 214.63 29.21) (xy 214.63 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9c2b4d-97cb-49ea-b3fc-2604287f0c01")
+	)
+	(wire
+		(pts
+			(xy 212.09 31.75) (xy 212.09 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbd8dc4-ac67-4097-b50b-4935b40cc1d3")
+	)
+	(wire
+		(pts
+			(xy 222.25 173.99) (xy 222.25 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e563230-250c-4134-80fb-ce78e08b1f35")
+	)
+	(wire
+		(pts
+			(xy 105.41 124.46) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41945c7b-a604-4ea2-9316-c0fdda7e2fe8")
+	)
+	(wire
+		(pts
+			(xy 46.99 36.83) (xy 46.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425d9cff-1d97-4b37-a6c9-a73dec5efd8e")
+	)
+	(wire
+		(pts
+			(xy 260.35 106.68) (xy 219.71 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e6963a-aabe-48d4-ba52-90c613b01d43")
+	)
+	(wire
+		(pts
+			(xy 265.43 116.84) (xy 97.79 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb1a93d-a7eb-458b-9f12-cc9dc619d292")
+	)
+	(wire
+		(pts
+			(xy 176.53 80.01) (xy 176.53 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd60b52-0ff3-443f-b7b5-10ee15358102")
+	)
+	(wire
+		(pts
+			(xy 222.25 80.01) (xy 222.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c597290-e1f6-487f-9b50-32401d665eee")
+	)
+	(wire
+		(pts
+			(xy 44.45 39.37) (xy 44.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf261e6-e0d2-48ab-93ef-f5cc6f220a64")
+	)
+	(wire
+		(pts
+			(xy 201.93 163.83) (xy 201.93 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da283ad-2d43-464f-bef5-66f153c931fd")
+	)
+	(wire
+		(pts
+			(xy 234.95 111.76) (xy 214.63 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3dd1aa-b00e-4e34-a264-a3ead8237ad5")
+	)
+	(wire
+		(pts
+			(xy 151.13 153.67) (xy 151.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcab939-9b46-4a8e-b7aa-641e65924f2e")
+	)
+	(wire
+		(pts
+			(xy 273.05 92.71) (xy 260.35 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511f99ed-a656-4db9-9da9-325b6ebbbae5")
+	)
+	(wire
+		(pts
+			(xy 113.03 114.3) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525b395d-0c05-4b6a-804b-4c5d7e0d7433")
+	)
+	(wire
+		(pts
+			(xy 120.65 144.78) (xy 90.17 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ce2ca8-a0dd-4c83-9748-56fd9b7f1c1a")
+	)
+	(wire
+		(pts
+			(xy 158.75 92.71) (xy 146.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532e729f-3b5a-4f89-8396-e5d2543b0ffe")
+	)
+	(wire
+		(pts
+			(xy 49.53 154.94) (xy 54.61 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5345aae0-b1cd-4554-8adb-2f68fb4617cf")
+	)
+	(wire
+		(pts
+			(xy 86.36 52.07) (xy 86.36 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5393f6f2-66e5-4207-b134-2e546e05f0c2")
+	)
+	(wire
+		(pts
+			(xy 86.36 26.67) (xy 101.6 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55be7b96-efba-4579-b740-9f7b73f669a2")
+	)
+	(wire
+		(pts
+			(xy 113.03 134.62) (xy 113.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5807a387-a578-4e49-bf03-9801ca14c72b")
+	)
+	(wire
+		(pts
+			(xy 107.95 129.54) (xy 90.17 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58248ae4-f795-491e-aed4-7cb136524085")
+	)
+	(wire
+		(pts
+			(xy 138.43 163.83) (xy 138.43 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5893308c-7428-4d1f-8589-faaf41bc4d80")
+	)
+	(wire
+		(pts
+			(xy 234.95 176.53) (xy 247.65 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ca0467-74a4-4535-af41-3301b70fd709")
+	)
+	(wire
+		(pts
+			(xy 252.73 72.39) (xy 252.73 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59768518-dd04-45d7-bc48-d549bb56f5ff")
+	)
+	(wire
+		(pts
+			(xy 158.75 92.71) (xy 158.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a418312-f377-4964-844b-9fdc30619486")
+	)
+	(wire
+		(pts
+			(xy 212.09 114.3) (xy 212.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a73f5d8-5603-44a7-9333-2fc158516c98")
+	)
+	(wire
+		(pts
+			(xy 86.36 52.07) (xy 88.9 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8df081-3150-4767-88e0-484347c61c7e")
+	)
+	(wire
+		(pts
+			(xy 125.73 163.83) (xy 125.73 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce7d657-ed69-4c44-8801-6f11af53f68d")
+	)
+	(wire
+		(pts
+			(xy 146.05 92.71) (xy 133.35 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d085954-f127-4942-88be-4b7cd865d788")
+	)
+	(wire
+		(pts
+			(xy 52.07 137.16) (xy 52.07 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e496419-6480-4870-ac78-2535a9f5f7e9")
+	)
+	(wire
+		(pts
+			(xy 209.55 176.53) (xy 222.25 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fba9f29-2b68-410b-9201-c81bc9d90433")
+	)
+	(wire
+		(pts
+			(xy 240.03 163.83) (xy 240.03 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60038d8a-6844-41a0-9b9d-7aef13716138")
+	)
+	(wire
+		(pts
+			(xy 209.55 101.6) (xy 209.55 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617cb7fa-eee2-43b8-a67a-3ad1332eca8c")
+	)
+	(wire
+		(pts
+			(xy 163.83 26.67) (xy 140.97 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61dccecd-77a9-4742-ad1a-04ee6214c597")
+	)
+	(wire
+		(pts
+			(xy 247.65 80.01) (xy 247.65 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e2d9e1-ab4a-4b30-ad72-8550e55fba0a")
+	)
+	(wire
+		(pts
+			(xy 143.51 24.13) (xy 143.51 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6393303c-423e-4a8e-a7e6-e4e0d463a761")
+	)
+	(wire
+		(pts
+			(xy 86.36 26.67) (xy 86.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "661ece42-76f0-4586-a6a3-bf3e63182a83")
+	)
+	(wire
+		(pts
+			(xy 81.28 96.52) (xy 125.73 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67302385-8f8c-4c80-8e19-32bda879fa65")
+	)
+	(wire
+		(pts
+			(xy 247.65 173.99) (xy 247.65 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e462ca-d631-4a1c-a469-48546a487311")
+	)
+	(wire
+		(pts
+			(xy 252.73 156.21) (xy 252.73 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6821940d-9a67-49b8-a7a2-dcac91a84c45")
+	)
+	(wire
+		(pts
+			(xy 86.36 34.29) (xy 86.36 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cdd74bc-6a95-4eeb-9473-34cc3345b776")
+	)
+	(wire
+		(pts
+			(xy 146.05 21.59) (xy 146.05 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da384a1-bdda-4c4f-a31b-f433ebd0c954")
+	)
+	(wire
+		(pts
+			(xy 146.05 163.83) (xy 146.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f342a20-e61b-466c-9a48-3a45d6fc8052")
+	)
+	(wire
+		(pts
+			(xy 273.05 90.17) (xy 273.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa9f26c-8aa8-4269-90e6-699ba1af6466")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 163.83 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7085a6bc-dca7-497d-aebf-33cda4a6262f")
+	)
+	(wire
+		(pts
+			(xy 146.05 29.21) (xy 135.89 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b874c4-f95b-47e5-a909-b2d20d8debf5")
+	)
+	(wire
+		(pts
+			(xy 189.23 134.62) (xy 113.03 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7415e0e7-c512-4e5a-b91f-5a947c98c0f9")
+	)
+	(wire
+		(pts
+			(xy 81.28 21.59) (xy 81.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7512b4b2-16ee-4dd2-b188-d7cff8616f0c")
+	)
+	(wire
+		(pts
+			(xy 217.17 26.67) (xy 217.17 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d8b79b-0841-4d46-8a18-2c1945562b2a")
+	)
+	(wire
+		(pts
+			(xy 189.23 72.39) (xy 189.23 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765ac35b-31be-4e09-b2d7-978fe882664a")
+	)
+	(wire
+		(pts
+			(xy 227.33 124.46) (xy 105.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783fa203-7441-4167-90ab-201ad2ac428d")
+	)
+	(wire
+		(pts
+			(xy 135.89 29.21) (xy 135.89 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d8a649-50cf-494b-ab37-58767d9695e7")
+	)
+	(wire
+		(pts
+			(xy 196.85 80.01) (xy 196.85 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aca8148-e808-467a-8ec1-0589f344bc20")
+	)
+	(wire
+		(pts
+			(xy 110.49 129.54) (xy 110.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad7fb4e-270b-45c5-b437-f80fda261b90")
+	)
+	(wire
+		(pts
+			(xy 273.05 104.14) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6b5298-fe91-434a-991c-6630aba0217d")
+	)
+	(wire
+		(pts
+			(xy 234.95 92.71) (xy 222.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfe8031-53bc-4b61-935b-8aafb23ca8a5")
+	)
+	(wire
+		(pts
+			(xy 214.63 80.01) (xy 214.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfa94e3-00f1-4c5a-9849-747abe8845ed")
+	)
+	(wire
+		(pts
+			(xy 95.25 116.84) (xy 90.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8182912c-72d9-44cd-b29b-fbb628b140f6")
+	)
+	(wire
+		(pts
+			(xy 138.43 19.05) (xy 138.43 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830e9180-b462-4718-ab27-fbb334477d33")
+	)
+	(wire
+		(pts
+			(xy 49.53 152.4) (xy 54.61 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8426628b-1734-4ca7-a5ac-c6fd3278d9db")
+	)
+	(wire
+		(pts
+			(xy 227.33 163.83) (xy 227.33 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ab4102-8316-45a8-81ef-668ea7bd5a71")
+	)
+	(wire
+		(pts
+			(xy 234.95 29.21) (xy 214.63 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860d44f4-155a-4d1e-b383-5660bfb48603")
+	)
+	(wire
+		(pts
+			(xy 135.89 111.76) (xy 146.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8787f007-765e-47ab-ba20-3f0681e93b5b")
+	)
+	(wire
+		(pts
+			(xy 143.51 106.68) (xy 143.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c0f301-2a7c-4ec4-8853-bd2f2c74dc3b")
+	)
+	(wire
+		(pts
+			(xy 105.41 127) (xy 90.17 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87fbc8d1-b206-4f3d-8a84-b0501331fb2e")
+	)
+	(wire
+		(pts
+			(xy 133.35 173.99) (xy 133.35 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8804646b-ac24-42d2-8341-6546732b6dbf")
+	)
+	(wire
+		(pts
+			(xy 46.99 36.83) (xy 88.9 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c3c4da-a299-4999-aead-692012b7f34a")
+	)
+	(wire
+		(pts
+			(xy 115.57 132.08) (xy 176.53 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89af5ed3-1a77-4042-b58f-380874fd176b")
+	)
+	(wire
+		(pts
+			(xy 138.43 152.4) (xy 138.43 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d66928-fb80-46c1-a22c-21f149c04803")
+	)
+	(wire
+		(pts
+			(xy 189.23 80.01) (xy 189.23 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa78355-16a8-4339-a630-2e2619286360")
+	)
+	(wire
+		(pts
+			(xy 196.85 104.14) (xy 146.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba93ea2-cfa6-4e1e-a9b8-c2bd6a1ace7c")
+	)
+	(wire
+		(pts
+			(xy 133.35 19.05) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c12f79e-126d-4654-95b2-68c5a6c2c59e")
+	)
+	(wire
+		(pts
+			(xy 19.05 36.83) (xy 46.99 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8def2997-c746-40b3-96f2-685505f2fa6e")
+	)
+	(wire
+		(pts
+			(xy 52.07 104.14) (xy 72.39 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5f0729-389e-4e0c-bb7e-85c89a08c794")
+	)
+	(wire
+		(pts
+			(xy 92.71 111.76) (xy 115.57 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcd0a63-8237-4fe1-9c1b-99b9a21ec5b4")
+	)
+	(wire
+		(pts
+			(xy 176.53 57.15) (xy 120.65 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903a0355-91d2-4535-8378-cff54596b1b4")
+	)
+	(wire
+		(pts
+			(xy 92.71 111.76) (xy 92.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9252e521-056b-412a-8520-12916e30b77c")
+	)
+	(wire
+		(pts
+			(xy 72.39 176.53) (xy 133.35 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93822c19-f7dd-49f9-8177-dd0d80d6b1db")
+	)
+	(wire
+		(pts
+			(xy 184.15 80.01) (xy 184.15 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ef2e87-bd3f-4143-9fea-07d38844d390")
+	)
+	(wire
+		(pts
+			(xy 260.35 24.13) (xy 260.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b80355-b6cc-4746-a362-cd3308f56c0c")
+	)
+	(wire
+		(pts
+			(xy 90.17 152.4) (xy 138.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95747974-60a4-4ee2-9287-12fae146cb38")
+	)
+	(wire
+		(pts
+			(xy 125.73 16.51) (xy 125.73 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957db2ee-9079-41f6-a35b-91fe0cc35159")
+	)
+	(wire
+		(pts
+			(xy 189.23 156.21) (xy 189.23 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97df96fb-baf7-4fbf-9025-5d9ea964f873")
+	)
+	(wire
+		(pts
+			(xy 52.07 26.67) (xy 52.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ff20ea-f3a6-4510-b5f8-588afe2eea51")
+	)
+	(wire
+		(pts
+			(xy 252.73 163.83) (xy 252.73 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9999b1da-64a3-48bb-9d06-f0ab50f231d8")
+	)
+	(wire
+		(pts
+			(xy 247.65 26.67) (xy 217.17 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b0fe13-b2c6-40d1-8ab5-c2793d2e23d4")
+	)
+	(wire
+		(pts
+			(xy 240.03 72.39) (xy 240.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e72db0-cfbb-42b3-a855-4161cac796af")
+	)
+	(wire
+		(pts
+			(xy 49.53 165.1) (xy 72.39 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab420b8-5808-4438-b51f-2ae5dca4102c")
+	)
+	(wire
+		(pts
+			(xy 209.55 173.99) (xy 209.55 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9abcc49c-6205-4dd6-bb76-d9ef645daece")
+	)
+	(wire
+		(pts
+			(xy 273.05 21.59) (xy 222.25 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be56f6d-fa85-4ce8-a8f4-efb415256153")
+	)
+	(wire
+		(pts
+			(xy 125.73 80.01) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c445144-3293-4c37-823d-60f25408fec4")
+	)
+	(wire
+		(pts
+			(xy 201.93 156.21) (xy 201.93 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6c3a86-9865-40c8-afba-aa2182771fba")
+	)
+	(wire
+		(pts
+			(xy 83.82 62.23) (xy 101.6 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a017a973-c1de-448a-ac39-cda298ce04fc")
+	)
+	(wire
+		(pts
+			(xy 140.97 109.22) (xy 140.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b7d00e-6ee0-4715-984c-bd731cb577ec")
+	)
+	(wire
+		(pts
+			(xy 151.13 163.83) (xy 151.13 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23ea116-39f3-4d80-b61d-0c935a317dc3")
+	)
+	(wire
+		(pts
+			(xy 260.35 92.71) (xy 260.35 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e55ab2-f4bf-4882-9637-352277ee908f")
+	)
+	(wire
+		(pts
+			(xy 201.93 129.54) (xy 110.49 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44249b6-1e45-41ab-be8b-a707aaacc658")
+	)
+	(wire
+		(pts
+			(xy 123.19 147.32) (xy 90.17 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6500fb3-8249-4da1-840e-fdaf9c2626a6")
+	)
+	(wire
+		(pts
+			(xy 201.93 80.01) (xy 201.93 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d7b7e4-6019-4a62-ba2f-bc10b90daf58")
+	)
+	(wire
+		(pts
+			(xy 189.23 59.69) (xy 123.19 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6dfcf1b-d0fe-4edb-ac4f-c9d57e1c7433")
+	)
+	(wire
+		(pts
+			(xy 214.63 72.39) (xy 214.63 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73670d2-e1cd-4514-83fb-f49f9e1ddb6d")
+	)
+	(wire
+		(pts
+			(xy 247.65 163.83) (xy 247.65 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7673461-8d3d-47f6-a940-6c6873c3dc01")
+	)
+	(wire
+		(pts
+			(xy 176.53 72.39) (xy 176.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a869467b-fcd5-4a05-b561-9e76bca34dd8")
+	)
+	(wire
+		(pts
+			(xy 72.39 165.1) (xy 72.39 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86e0e38-1473-4bee-b827-2acde9bcab48")
+	)
+	(wire
+		(pts
+			(xy 196.85 92.71) (xy 196.85 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90feaba-422a-4652-b9e1-4f286b333faa")
+	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 133.35 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9ccf72-2f2c-4bac-8f2a-04dc65daba4a")
+	)
+	(wire
+		(pts
+			(xy 158.75 80.01) (xy 163.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab667fed-9a22-4e4b-bf54-fe58c637620d")
+	)
+	(wire
+		(pts
+			(xy 101.6 62.23) (xy 101.6 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade3bc89-a07b-4e10-b1ca-a74ec1f69408")
+	)
+	(wire
+		(pts
+			(xy 95.25 114.3) (xy 95.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf3f268-373d-40e1-b88e-d86856e9e58b")
+	)
+	(wire
+		(pts
+			(xy 19.05 21.59) (xy 81.28 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aefb1b06-b88c-4575-9fdb-8519d7d2639b")
+	)
+	(wire
+		(pts
+			(xy 49.53 154.94) (xy 49.53 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1d7d78-0203-426e-bba0-fee437c41122")
+	)
+	(wire
+		(pts
+			(xy 52.07 149.86) (xy 54.61 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2ab09b-97cd-4cc2-81fa-d9f8374aa1e9")
+	)
+	(wire
+		(pts
+			(xy 265.43 72.39) (xy 265.43 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afbb2f7b-2746-4efe-a4b5-7087f2618a56")
+	)
+	(wire
+		(pts
+			(xy 83.82 49.53) (xy 83.82 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0711c26-5ef7-4245-b112-5fc479730ede")
+	)
+	(wire
+		(pts
+			(xy 265.43 34.29) (xy 114.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b198a3f3-e1cd-454d-92d9-2673da433609")
+	)
+	(wire
+		(pts
+			(xy 214.63 111.76) (xy 214.63 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b41c7c37-0018-4b2b-9918-7ead7a83b282")
+	)
+	(wire
+		(pts
+			(xy 102.87 121.92) (xy 102.87 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b445123d-334d-43e3-8d45-816e3fb91d01")
+	)
+	(wire
+		(pts
+			(xy 49.53 29.21) (xy 83.82 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50ff4a0-c572-4477-9998-2cc8ea369169")
+	)
+	(wire
+		(pts
+			(xy 107.95 127) (xy 107.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58295ef-fc1a-4937-92ca-7fdb6a014739")
+	)
+	(wire
+		(pts
+			(xy 234.95 92.71) (xy 234.95 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b593e26d-3c41-477b-b2cb-427ae2065e8a")
+	)
+	(wire
+		(pts
+			(xy 234.95 163.83) (xy 234.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b684f46f-6f31-44d5-ad41-bd83602b8c79")
+	)
+	(wire
+		(pts
+			(xy 163.83 62.23) (xy 163.83 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a6e130-bbc0-4fe4-8402-3f4509a1c817")
+	)
+	(wire
+		(pts
+			(xy 83.82 49.53) (xy 88.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7adae46-7636-497b-b7cf-08a6ad5dd7a1")
+	)
+	(wire
+		(pts
+			(xy 133.35 101.6) (xy 133.35 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e7b772-f3cc-43ad-9518-727226514b17")
+	)
+	(wire
+		(pts
+			(xy 19.05 29.21) (xy 49.53 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f210d5-0c08-49ae-9b3e-64dfd9520176")
+	)
+	(wire
+		(pts
+			(xy 252.73 36.83) (xy 114.3 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b914d377-9221-4adb-9eee-2f996e6ba408")
+	)
+	(wire
+		(pts
+			(xy 114.3 49.53) (xy 125.73 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c4744f-c20c-4f82-9aed-93c18a766260")
+	)
+	(wire
+		(pts
+			(xy 189.23 163.83) (xy 189.23 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba4237f7-7048-42d5-815e-3ed0bc809305")
+	)
+	(wire
+		(pts
+			(xy 100.33 121.92) (xy 90.17 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "badd5c03-a93c-418b-a86e-d6b1c3d0f964")
+	)
+	(wire
+		(pts
+			(xy 252.73 119.38) (xy 100.33 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6d8869-89ff-4bca-a367-8ff90c33a4f3")
+	)
+	(wire
+		(pts
+			(xy 49.53 152.4) (xy 49.53 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb7a715-7666-42b6-95fb-32124711c7af")
+	)
+	(wire
+		(pts
+			(xy 86.36 54.61) (xy 88.9 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf782042-4a40-455f-9f65-7e7b2c926355")
+	)
+	(wire
+		(pts
+			(xy 52.07 26.67) (xy 86.36 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8a86a0-def8-4180-9753-f33a4ee70bc4")
+	)
+	(wire
+		(pts
+			(xy 133.35 176.53) (xy 146.05 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c1a848-82f4-4802-ac73-e5983a6ac3da")
+	)
+	(wire
+		(pts
+			(xy 234.95 80.01) (xy 234.95 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25dd757-eab7-49f7-bebf-7fdee438e0d7")
+	)
+	(wire
+		(pts
+			(xy 125.73 26.67) (xy 125.73 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2632233-1b44-4961-9bcf-35385fb6be2e")
+	)
+	(wire
+		(pts
+			(xy 260.35 92.71) (xy 247.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c363bdbb-d4ee-4f4d-a55a-470df440fdb2")
+	)
+	(wire
+		(pts
+			(xy 219.71 24.13) (xy 219.71 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4885183-de00-4bd9-aeae-0f98face9e31")
+	)
+	(wire
+		(pts
+			(xy 201.93 46.99) (xy 114.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6400143-47d9-46a7-9067-a8228e1f8add")
+	)
+	(wire
+		(pts
+			(xy 196.85 176.53) (xy 209.55 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c652790c-eb44-4cca-987a-1d359cc3630c")
+	)
+	(wire
+		(pts
+			(xy 209.55 80.01) (xy 209.55 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6965ec8-da46-47d8-b16e-f6f29e45a9b5")
+	)
+	(wire
+		(pts
+			(xy 135.89 111.76) (xy 135.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3771bf-0d5b-41d3-811d-41936fae2807")
+	)
+	(wire
+		(pts
+			(xy 123.19 59.69) (xy 123.19 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca48003f-5916-4d9a-91cc-ca722933d32e")
+	)
+	(wire
+		(pts
+			(xy 92.71 114.3) (xy 90.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca78f187-52b3-4917-904a-730226884978")
+	)
+	(wire
+		(pts
+			(xy 101.6 62.23) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa3ac20-738d-4f10-ae77-f025130e8447")
+	)
+	(wire
+		(pts
+			(xy 240.03 80.01) (xy 240.03 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad94f51-3705-42ea-be4f-60bb01d36ef8")
+	)
+	(wire
+		(pts
+			(xy 100.33 119.38) (xy 100.33 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb948d84-5aee-427f-816b-7d42e4cd4e74")
+	)
+	(wire
+		(pts
+			(xy 128.27 154.94) (xy 128.27 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3ea59c-6405-40fa-82ce-e8d0fdcef567")
+	)
+	(wire
+		(pts
+			(xy 90.17 154.94) (xy 128.27 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc91f902-c453-4cd6-8131-dcec5f1082b7")
+	)
+	(wire
+		(pts
+			(xy 158.75 163.83) (xy 163.83 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce49f7c-027c-4147-a886-0668ce848018")
+	)
+	(wire
+		(pts
+			(xy 222.25 104.14) (xy 222.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf917b0-bc4c-4e48-a832-2a3848795273")
+	)
+	(wire
+		(pts
+			(xy 227.33 156.21) (xy 227.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce703345-be89-41f6-811d-e3c21ac8ec3f")
+	)
+	(wire
+		(pts
+			(xy 176.53 132.08) (xy 176.53 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee6d653-e554-4e27-a828-fa2bb2d95b65")
+	)
+	(wire
+		(pts
+			(xy 184.15 24.13) (xy 143.51 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf55c726-9a5b-4801-89a9-e10f75d3ece9")
+	)
+	(wire
+		(pts
+			(xy 227.33 80.01) (xy 227.33 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0bbd4c9-e774-4a97-9021-dc277c4ebf4d")
+	)
+	(wire
+		(pts
+			(xy 240.03 39.37) (xy 114.3 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d130406a-b656-4654-8e7f-fa9aa3eb29d1")
+	)
+	(wire
+		(pts
+			(xy 260.35 163.83) (xy 260.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27d0e63-6b54-4ed4-aab1-5a90daa211f9")
+	)
+	(wire
+		(pts
+			(xy 125.73 149.86) (xy 125.73 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29441ce-ce0e-487e-8e7b-ecd67e2a077f")
+	)
+	(wire
+		(pts
+			(xy 222.25 19.05) (xy 222.25 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a6703b-d255-4146-b781-b0017c53ebc5")
+	)
+	(wire
+		(pts
+			(xy 125.73 72.39) (xy 125.73 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ce2a86-e6ea-455f-96e2-069bffeab5ba")
+	)
+	(wire
+		(pts
+			(xy 78.74 44.45) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f8f11a-9f07-41e7-ad82-652356d6a645")
+	)
+	(wire
+		(pts
+			(xy 49.53 29.21) (xy 49.53 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46f6a40-7132-498c-8dec-ec3bd92ce0ea")
+	)
+	(wire
+		(pts
+			(xy 214.63 163.83) (xy 214.63 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d582d9a7-8a62-4c94-9936-87bb37ebe700")
+	)
+	(wire
+		(pts
+			(xy 110.49 132.08) (xy 90.17 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7374759-10c4-4744-92a6-88c387cefcff")
+	)
+	(wire
+		(pts
+			(xy 247.65 92.71) (xy 247.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7547ab3-a12b-4e60-8aff-54ec787343b2")
+	)
+	(wire
+		(pts
+			(xy 133.35 92.71) (xy 133.35 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d780379a-23be-4b71-8625-afe3960181de")
+	)
+	(wire
+		(pts
+			(xy 234.95 173.99) (xy 234.95 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90c7dcd-cb07-4b1e-98b8-f5fa8f29e7c2")
+	)
+	(wire
+		(pts
+			(xy 72.39 165.1) (xy 72.39 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da196baa-a5ff-4d83-a3c0-00fe16d6b7b4")
+	)
+	(wire
+		(pts
+			(xy 118.11 142.24) (xy 90.17 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1029fd-af1c-4f58-97f4-6d7e98b185c8")
+	)
+	(wire
+		(pts
+			(xy 273.05 163.83) (xy 273.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc786d2f-91ff-479b-99b3-f72182342f88")
+	)
+	(wire
+		(pts
+			(xy 184.15 106.68) (xy 143.51 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9bf019-9409-4c35-870c-a904fb4884eb")
+	)
+	(wire
+		(pts
+			(xy 138.43 52.07) (xy 114.3 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1e4340-1cba-4cb4-a5d7-83ceb8699e8a")
+	)
+	(wire
+		(pts
+			(xy 222.25 92.71) (xy 222.25 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2525fb-5d69-4150-b0cb-10aa4314dc97")
+	)
+	(wire
+		(pts
+			(xy 138.43 109.22) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df24c5b6-638c-4888-9f11-07b96886cb75")
+	)
+	(wire
+		(pts
+			(xy 222.25 176.53) (xy 234.95 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfbca70b-adb8-40fc-b20a-663cc0d9effe")
+	)
+	(wire
+		(pts
+			(xy 209.55 92.71) (xy 209.55 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09e620b-b274-4687-ac96-25a17c9044c4")
+	)
+	(wire
+		(pts
+			(xy 44.45 114.3) (xy 54.61 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24ab0ed-4f1f-4b3b-8bce-67dee824554e")
+	)
+	(wire
+		(pts
+			(xy 158.75 176.53) (xy 184.15 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3689b31-4250-4791-b949-bb50e9681098")
+	)
+	(wire
+		(pts
+			(xy 227.33 41.91) (xy 114.3 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e528f1c2-33fb-4975-ae78-b41d30c6abfb")
+	)
+	(wire
+		(pts
+			(xy 46.99 129.54) (xy 54.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6212c9c-0f18-4454-ad60-3ca35fee9ec9")
+	)
+	(wire
+		(pts
+			(xy 209.55 92.71) (xy 196.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83c756a-aeab-43ff-b904-11f6d470d5ec")
+	)
+	(wire
+		(pts
+			(xy 138.43 26.67) (xy 125.73 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e996829b-7719-4b6c-8258-cf2737f43987")
+	)
+	(wire
+		(pts
+			(xy 240.03 121.92) (xy 102.87 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e8f480-97fe-406c-8dbf-6ad1e33b87b3")
+	)
+	(wire
+		(pts
+			(xy 158.75 173.99) (xy 158.75 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea70b495-b1d5-4dfc-871d-dec37be8e36c")
+	)
+	(wire
+		(pts
+			(xy 125.73 13.97) (xy 81.28 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6963f2-e1c6-4297-b98c-6270c05a36d1")
+	)
+	(wire
+		(pts
+			(xy 101.6 26.67) (xy 101.6 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb967dab-04d7-4a3a-a2b3-4d17f8e2d8a1")
+	)
+	(wire
+		(pts
+			(xy 273.05 173.99) (xy 273.05 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed86cd0d-63c7-4ca4-b8fc-7c52efae18ab")
+	)
+	(wire
+		(pts
+			(xy 46.99 132.08) (xy 54.61 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0c9dc1-4434-4cc9-abd4-701cebe12712")
+	)
+	(wire
+		(pts
+			(xy 252.73 80.01) (xy 252.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f17a7de8-3333-422d-a690-98c741fe8aa3")
+	)
+	(wire
+		(pts
+			(xy 265.43 156.21) (xy 265.43 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b3acdb-f339-4e0c-bf2e-975a22fe5609")
+	)
+	(wire
+		(pts
+			(xy 115.57 111.76) (xy 115.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bd0c5d-0c13-4222-8974-45f0e915fa44")
+	)
+	(wire
+		(pts
+			(xy 273.05 176.53) (xy 260.35 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38dc23d-d2ee-4bae-af36-b7374530c887")
+	)
+	(wire
+		(pts
+			(xy 214.63 44.45) (xy 114.3 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38ecf6e-3f36-4225-af6b-31db87ae3660")
+	)
+	(wire
+		(pts
+			(xy 163.83 109.22) (xy 140.97 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4767036-30bc-4149-a003-e266c8936c90")
+	)
+	(wire
+		(pts
+			(xy 196.85 92.71) (xy 184.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65ab643-9cfe-4b6e-8082-9f89310ac0d9")
+	)
+	(wire
+		(pts
+			(xy 118.11 54.61) (xy 118.11 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d1000d-60ba-4600-8741-bf125ae79569")
+	)
+	(wire
+		(pts
+			(xy 196.85 21.59) (xy 146.05 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf4d02e-519b-41d7-a6b3-4cc5ca159c58")
+	)
+	(wire
+		(pts
+			(xy 196.85 163.83) (xy 196.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdbb681a-f0e4-40f9-9f8a-d5a94cdc2dff")
+	)
+	(wire
+		(pts
+			(xy 217.17 109.22) (xy 217.17 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdbc887b-f2d9-4b9d-9fe2-3c77977ada39")
+	)
+	(wire
+		(pts
+			(xy 120.65 57.15) (xy 120.65 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff280f52-b4e8-41f4-860c-b5340128c77e")
+	)
+	(hierarchical_label "170V"
+		(shape input)
+		(at 19.05 21.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56e3101d-d112-4ace-8120-996855c14a36")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 19.05 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d255a4e-a508-4548-8874-356dff6bfb8c")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 19.05 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3d8656f-5d3b-478f-a907-72a105b8d251")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 19.05 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b83bc689-3063-45d7-8136-4078e9aec601")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 19.05 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c57b3ff2-a9e3-435b-8080-7803876aea2d")
+	)
+	(symbol
+		(lib_id "Nixie:Pin")
+		(at 46.99 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fa307d9-96da-4eb8-8ef5-f90e8863b870")
+		(property "Reference" "E27"
+			(at 44.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Nixie:SingleHole"
+			(at 46.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99f96fcb-f7a7-4eec-9ab6-771553d998f0")
+		)
+		(instances
+			(project ""
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "E27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fb09fb2-a43d-400c-825b-e672713b3026")
+		(property "Reference" "R61"
+			(at 204.47 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 204.47 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 200.152 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c603839c-9fe6-433c-9f91-62d6282e07b9")
+		)
+		(pin "1"
+			(uuid "8e4a67ab-f7e2-444f-8b97-6237cba840b2")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 130.81 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1204df4c-c6d8-439e-ae82-feb77d2518e1")
+		(property "Reference" "Q25"
+			(at 135.89 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 135.89 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 135.89 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 130.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94474ced-64cf-4a26-b23c-280fe3c8e48b")
+		)
+		(pin "2"
+			(uuid "b9588b48-7952-48c9-a652-84508afc6226")
+		)
+		(pin "3"
+			(uuid "86342761-b5e4-4f3e-9b06-d608ad637109")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 138.43 13.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c99a111-ed20-4744-92a9-79e1098f09db")
+		(property "Reference" "X12"
+			(at 138.4299 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 140.9699 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Pinbar_1-6-f-a"
+			(at 138.43 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 138.43 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6e0c71ba-43f5-4b83-a31a-6de5f2670bfb")
+		)
+		(pin "4"
+			(uuid "e0b4a746-da5a-4ebc-94b1-e4a747941bae")
+		)
+		(pin "1"
+			(uuid "dad76a83-a2fc-4c84-ac71-7536ba2a2365")
+		)
+		(pin "2"
+			(uuid "2c05270b-b2c9-44cc-82c5-d580f3e5de2e")
+		)
+		(pin "5"
+			(uuid "13dc0473-01c2-4ccf-b472-f1e917db6fe3")
+		)
+		(pin "6"
+			(uuid "a5339e2d-b8a0-4fe7-85d4-5a57b7e52067")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "X12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f0d1e18-e42c-40cf-9053-804bb2be1cbd")
+		(property "Reference" "R66"
+			(at 267.97 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 267.97 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 263.652 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e8f424e-1b7b-49cc-b4a5-5dd06ffdfe6a")
+		)
+		(pin "1"
+			(uuid "541a0bca-11c7-420b-9911-801171de18ac")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 245.11 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "226f9f57-c983-4ebc-8d76-415c0ffb0a0e")
+		(property "Reference" "Q33"
+			(at 250.19 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 250.19 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 250.19 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 245.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 245.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fdcf55ff-6356-4577-9552-469cfd425267")
+		)
+		(pin "1"
+			(uuid "d00f3eab-c43c-4c94-a787-b83cde414b00")
+		)
+		(pin "3"
+			(uuid "8f7e302b-0b2b-49b6-9926-82071f9e96ef")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 214.63 13.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26aba6d4-75af-4c5f-ae15-f5cad34efb32")
+		(property "Reference" "X13"
+			(at 214.6299 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 217.1699 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Pinbar_1-6-f-b"
+			(at 214.63 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 214.63 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fe83c2c-5fa1-4d5f-9b0e-9ef635608288")
+		)
+		(pin "3"
+			(uuid "727ece72-fb69-4217-91b9-061a53b03cec")
+		)
+		(pin "6"
+			(uuid "644fd4ad-e007-4905-a47b-a6bc6c08fc6f")
+		)
+		(pin "5"
+			(uuid "942fe098-0dd9-44e7-a477-0185f100a746")
+		)
+		(pin "1"
+			(uuid "b35562f9-e8ec-40c7-817c-b55657010b2e")
+		)
+		(pin "4"
+			(uuid "38721b2d-c28c-4652-8244-79b89b38d68b")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "X13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 227.33 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "272ae2eb-80cc-4660-9a30-87f687612fa8")
+		(property "Reference" "R48"
+			(at 229.87 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 229.87 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 225.552 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "834a9fa6-cd44-4270-9f8d-f02c4b7bdf4e")
+		)
+		(pin "2"
+			(uuid "1785203c-7124-468e-9a0a-d8af0957a5c2")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "295bf77b-1bbf-496b-b248-0ca51f16178c")
+		(property "Reference" "R43"
+			(at 166.37 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 166.37 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 162.052 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b91e26fb-f05f-433e-b9fd-d73c8644c8ab")
+		)
+		(pin "1"
+			(uuid "3f56441a-c74d-4525-92cd-f12d022bffc1")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aa6b250-0d18-4ac3-a5e4-820f68e072c2")
+		(property "Reference" "R57"
+			(at 166.37 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 166.37 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 162.052 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "429fc47f-9ead-4ca4-8df0-0f8d15a7e32b")
+		)
+		(pin "1"
+			(uuid "95b9b038-ae90-4925-8ccb-be3bb26e3d5d")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 156.21 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e7229f3-badb-49b9-bd87-5d31fbe8e583")
+		(property "Reference" "Q38"
+			(at 161.29 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 161.29 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 161.29 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 156.21 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 156.21 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2ad679b-61a9-4972-ac28-a925b5b19c9c")
+		)
+		(pin "1"
+			(uuid "921effb6-69ab-4413-b88a-397aa6e2c4e5")
+		)
+		(pin "3"
+			(uuid "e7beb344-32c4-43a3-be8f-e0a0f6a24e61")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 252.73 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e741f77-a25a-41d9-86c1-b5c9e1dc57bd")
+		(property "Reference" "R65"
+			(at 255.27 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 255.27 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 250.952 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe125d5d-1b0e-45c5-97e3-5010c79a2d3d")
+		)
+		(pin "1"
+			(uuid "ec3b449b-c81a-40d8-ae27-da1bf9291210")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:MCP23008-xP")
+		(at 101.6 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30f8a584-680c-4630-8f66-f41acf2d7447")
+		(property "Reference" "A3"
+			(at 103.7941 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP23008-xP"
+			(at 103.7941 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit I/O expander, I2C, interrupts, PDIP-18"
+			(at 101.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "24bbd256-fc8b-4d96-b7ab-2fa82fab4932")
+		)
+		(pin "7"
+			(uuid "3d7234ad-700c-4a56-b3b7-856c445020e5")
+		)
+		(pin "1"
+			(uuid "e88821f1-ca65-4181-8d77-d2a88f5a8851")
+		)
+		(pin "18"
+			(uuid "eaa607a7-4a8d-4225-aba0-a5267c39ac53")
+		)
+		(pin "4"
+			(uuid "7828ae01-e225-46da-b06b-20b5819b6851")
+		)
+		(pin "5"
+			(uuid "3001c16c-161f-4bf2-80db-d01a856fc4b2")
+		)
+		(pin "8"
+			(uuid "2bc01186-2e2a-4523-9b00-bc0ecdcf4901")
+		)
+		(pin "10"
+			(uuid "13708028-d0c7-44d0-bc8a-3b5f4fa40e44")
+		)
+		(pin "16"
+			(uuid "f87e04e2-51c3-4029-aee5-143a7ab05a6b")
+		)
+		(pin "11"
+			(uuid "d50333ac-f0b5-400e-be54-a46053f913d3")
+		)
+		(pin "14"
+			(uuid "9ed2533e-4bfd-4d23-b13c-c003ddf4a41a")
+		)
+		(pin "3"
+			(uuid "1bda2e72-e98a-4f44-8f23-d93e1b25de96")
+		)
+		(pin "12"
+			(uuid "82fb1076-c4aa-434a-ae80-e30ecd47af63")
+		)
+		(pin "15"
+			(uuid "9853a3b5-b875-4aca-8242-d2350090e41b")
+		)
+		(pin "9"
+			(uuid "2dff80ee-5e69-4971-a20a-bdf29f5a4c84")
+		)
+		(pin "2"
+			(uuid "d424f37b-aa90-4ee7-85ab-be7680af7cc7")
+		)
+		(pin "17"
+			(uuid "88aba004-2002-4a50-9088-a69e11fb285d")
+		)
+		(pin "13"
+			(uuid "85e897e9-7828-48e8-8b7a-61102a68cde2")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "A3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 138.43 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c38b504-3fc4-4c7e-827c-0ab9e9814390")
+		(property "Reference" "R54"
+			(at 140.97 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 140.97 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 136.652 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f1076e6-2f83-4e0c-9265-0e61fad20e13")
+		)
+		(pin "1"
+			(uuid "e4bfdb2d-b9f6-436f-8adf-081a15a145ca")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40576f05-e129-4a12-8aec-9d0ab4844bad")
+		(property "Reference" "R41"
+			(at 153.67 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R100K"
+			(at 153.67 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 149.352 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dafe2d1-46f1-4e5e-b08a-060584625ad6")
+		)
+		(pin "2"
+			(uuid "a51dfc80-7bf5-4120-97dd-e160176127b3")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 232.41 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43a59baa-a1ba-4826-aba8-4837b0a374be")
+		(property "Reference" "Q32"
+			(at 237.49 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 237.49 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 237.49 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f1dea66-c3f1-41c8-a66e-cdc85cf07c3d")
+		)
+		(pin "3"
+			(uuid "50a93232-3f2c-410c-92b0-e878533560c1")
+		)
+		(pin "1"
+			(uuid "32ed0811-226f-4e82-b377-abd1e6fc051f")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 227.33 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "456d35ba-72a0-404d-8946-5d393363e62e")
+		(property "Reference" "R63"
+			(at 229.87 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 229.87 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 225.552 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.33 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee1b754d-9945-4101-91fb-9b8608fca567")
+		)
+		(pin "2"
+			(uuid "97bc8e8b-b591-4fd0-b814-8a4a3699422a")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 143.51 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47310677-8397-4170-83bf-7de6e1422e13")
+		(property "Reference" "Q37"
+			(at 148.59 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 148.59 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 148.59 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 143.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0f8c854-7abe-434e-9ffa-239a1c25ef84")
+		)
+		(pin "2"
+			(uuid "6201a40e-98f1-4a57-a0aa-8ea7ab412727")
+		)
+		(pin "3"
+			(uuid "29906baa-99a4-47b1-acda-1e2b5b3bc869")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 252.73 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5598ae5b-0624-47f3-92d1-69791daaa108")
+		(property "Reference" "R50"
+			(at 255.27 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 255.27 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 250.952 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54105a5f-0532-44a5-a4f6-2ec3868dba1b")
+		)
+		(pin "1"
+			(uuid "65e888b3-d958-4802-9e95-45450d402ffb")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ece7ad3-0fec-41c7-8105-6a440be50222")
+		(property "Reference" "R49"
+			(at 242.57 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 242.57 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 238.252 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8ceb1f5-434d-4b0f-9ddb-8f60d73c0179")
+		)
+		(pin "1"
+			(uuid "deb3febb-19fa-4b0f-9c90-5df40515ed83")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 138.43 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6223b29f-13fc-458b-934a-c2419dc5f6cb")
+		(property "Reference" "X14"
+			(at 138.4299 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 140.9699 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Pinbar_1-6-f-a"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "008a73c4-e0a9-4782-a4e0-53f57f19d2c9")
+		)
+		(pin "3"
+			(uuid "124ee939-9cd4-4c2f-9540-8047b3b20d12")
+		)
+		(pin "1"
+			(uuid "006111b0-a71c-4d26-887a-9ee1a145e324")
+		)
+		(pin "5"
+			(uuid "9eebfb2f-7641-440d-a264-3a0ea7135bff")
+		)
+		(pin "2"
+			(uuid "f5235802-a768-4654-8f0d-be4f9a9c2710")
+		)
+		(pin "6"
+			(uuid "6a9752ee-7dd5-44f5-81f5-0ccad26431a2")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "X14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "622a4e80-12fd-432a-8bbb-1f8f105603fb")
+		(property "Reference" "R62"
+			(at 217.17 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 217.17 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 212.852 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52690e68-bba2-49aa-ae84-93f551c57442")
+		)
+		(pin "2"
+			(uuid "ed8f6598-3438-4cd2-99f5-8abf5f8300ab")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 232.41 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62e31630-1d87-4e9f-8e67-be026627a664")
+		(property "Reference" "Q43"
+			(at 237.49 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 237.49 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 237.49 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 232.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 232.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06a8fb31-258e-4e5d-925a-772590eff248")
+		)
+		(pin "3"
+			(uuid "a0d86176-e410-497c-aea6-c15df158e12c")
+		)
+		(pin "1"
+			(uuid "3f83e3f3-d612-4b04-9296-39691830c8f0")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a958f82-e6fe-467b-8fda-8702f36938f2")
+		(property "Reference" "R56"
+			(at 153.67 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R100K"
+			(at 153.67 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 149.352 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c54032a-95b8-4c90-9d4a-2db53faac585")
+		)
+		(pin "2"
+			(uuid "04e9fc19-88da-41cc-88c4-0c47337181e8")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ab52a51-d725-4fb2-afa3-e354b4193cd2")
+		(property "Reference" "R38"
+			(at 128.27 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 128.27 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 123.952 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b97f42b-8f53-4ce2-a1cc-0ce69b818cf7")
+		)
+		(pin "2"
+			(uuid "33a0985f-258b-41c9-904e-f70d4e619952")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 219.71 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7340aba5-4bb6-46b6-9c39-41b607e51959")
+		(property "Reference" "Q31"
+			(at 224.79 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 224.79 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 224.79 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 219.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 219.71 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0f75e1af-99e5-42e8-8f77-59c518999654")
+		)
+		(pin "2"
+			(uuid "c1a8da0c-8cef-401b-a87c-c6daa4b2342f")
+		)
+		(pin "1"
+			(uuid "9a99077d-03c5-4b48-ac2c-e9f3ae482c9e")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7803fc1e-d6c8-4e5a-aa74-f994d7c5cc24")
+		(property "Reference" "R64"
+			(at 242.57 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 242.57 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 238.252 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.03 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8964371d-f3ab-4c6a-9ac7-f1dd2ccdd2ed")
+		)
+		(pin "1"
+			(uuid "ef436b61-6877-440a-b9ba-cb06025b089c")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "782be8a6-9119-49cd-b0a3-ff7003f621f7")
+		(property "Reference" "R53"
+			(at 128.27 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 128.27 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 123.952 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ca66434-5b00-4b90-b392-0f4934e4d697")
+		)
+		(pin "2"
+			(uuid "7fcd451a-f8ad-4594-9bc3-cbee9caab753")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 257.81 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78d0edb1-e6e9-4dbb-a8a0-38938a0556c2")
+		(property "Reference" "Q34"
+			(at 262.89 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 262.89 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 262.89 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "919986f0-1f61-4b99-aeff-e6db401e8f29")
+		)
+		(pin "1"
+			(uuid "12f5257d-4dda-4bf2-9042-bf29e25887ab")
+		)
+		(pin "3"
+			(uuid "dbd9adf3-3084-4cb5-8e08-e551bf64f066")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c094d69-8c0e-4b92-9f1c-89424ed2d348")
+		(property "Reference" "R40"
+			(at 153.67 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R100K"
+			(at 153.67 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 149.352 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d114e1f5-bb50-4b61-9b9e-c8334e8f3010")
+		)
+		(pin "2"
+			(uuid "4d753ff1-a539-4d35-b4ec-ee515b485605")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86f47089-9594-4fc6-a8dc-956020d2435a")
+		(property "Reference" "R55"
+			(at 153.67 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R100K"
+			(at 153.67 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 149.352 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "116555f3-0e24-41eb-97fc-7ad0a93804e9")
+		)
+		(pin "2"
+			(uuid "30cd6473-da79-4386-8cab-f5908ccd668b")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e4af41b-ddb2-48f4-8de7-f83a27afc082")
+		(property "Reference" "R45"
+			(at 191.77 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 191.77 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 187.452 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b478004d-4e78-45ab-955a-ca466f5ee8f9")
+		)
+		(pin "2"
+			(uuid "2882e89f-f030-47c0-ac07-723c9a8e925f")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a102b32c-bfdd-4569-b8fe-de2890fb414f")
+		(property "Reference" "R58"
+			(at 166.37 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 166.37 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 162.052 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c03c8bc5-1c3b-40db-8900-79c5e05e58d2")
+		)
+		(pin "1"
+			(uuid "4e05f638-bbd1-442a-bac1-48f2f3af2d21")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 214.63 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8255044-eda1-4e75-af97-8074bc078000")
+		(property "Reference" "X15"
+			(at 214.6299 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 217.1699 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Pinbar_1-6-f-b"
+			(at 214.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 214.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ca44b76a-dcff-4b61-8bd9-569135e58ea3")
+		)
+		(pin "2"
+			(uuid "a68c7a25-2c93-4b02-b43c-9dacbe7bba41")
+		)
+		(pin "1"
+			(uuid "57800da7-9bde-407c-8837-454a900ac66d")
+		)
+		(pin "3"
+			(uuid "c3344600-e40e-49e9-853f-1e99df444a58")
+		)
+		(pin "5"
+			(uuid "bc534155-f527-44c1-97d8-14d7132e5284")
+		)
+		(pin "6"
+			(uuid "e8257766-4f09-45c2-93e6-e6e92d6ca71f")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "X15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 130.81 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa28d044-7ed0-4089-9856-c85521070ed8")
+		(property "Reference" "Q36"
+			(at 135.89 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 135.89 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 135.89 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 130.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 130.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "663f6a8c-a430-47c0-9456-9fbc5960bb6b")
+		)
+		(pin "2"
+			(uuid "6f965299-0074-4b85-b7c8-aeb6bbc016d5")
+		)
+		(pin "3"
+			(uuid "1bd578d2-60c7-4413-8346-e7ea2c53d022")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 270.51 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b21cdc0b-b78e-4b19-ae88-8ba65ed2d297")
+		(property "Reference" "Q46"
+			(at 275.59 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 275.59 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 275.59 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 270.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 270.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41c61f7c-0ec4-4c69-91c0-542335c74581")
+		)
+		(pin "3"
+			(uuid "65d2a910-2b2d-4fe9-9efa-f24311cf3125")
+		)
+		(pin "2"
+			(uuid "19816faa-39a5-4ba1-87da-3e2183fd13f5")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 143.51 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b346f9b3-248d-4ef1-bb70-4f1816ee9602")
+		(property "Reference" "Q26"
+			(at 148.59 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 148.59 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 148.59 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1153527-1500-454a-ac2d-c4d27a46f189")
+		)
+		(pin "2"
+			(uuid "e4c85377-a147-4759-af11-df9f61376878")
+		)
+		(pin "3"
+			(uuid "5af1136c-912d-4080-96b7-3e64af999cc0")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 207.01 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b42df567-4562-4340-9e42-f99a6fa54acc")
+		(property "Reference" "Q30"
+			(at 212.09 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 212.09 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 212.09 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c13fd2c8-14dd-4dba-91e4-3fd591547ca5")
+		)
+		(pin "2"
+			(uuid "42d236ce-0117-4c7d-9816-89bcc31cb86b")
+		)
+		(pin "1"
+			(uuid "da51107f-5a4d-444e-951e-8b90a43371c1")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfd195c3-64f4-4f03-b714-416ba63a4439")
+		(property "Reference" "R44"
+			(at 179.07 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 179.07 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 174.752 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6cf5008b-fad5-4f76-afc4-d7a2e5b16575")
+		)
+		(pin "1"
+			(uuid "c5a90ce1-6ea2-42c9-aa2a-c62392c0159e")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c36facbc-08f5-45b3-af59-e91ded5baa73")
+		(property "Reference" "R59"
+			(at 179.07 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 179.07 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 174.752 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 176.53 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85c83eec-1c7f-42aa-beaf-08609b69ed21")
+		)
+		(pin "1"
+			(uuid "9da1ec23-d82a-4e03-9be5-915be28cc831")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 156.21 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c51bcf15-839b-4e56-bfcc-4d126e770b09")
+		(property "Reference" "Q27"
+			(at 161.29 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 161.29 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 161.29 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 156.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf7f78a6-ad2a-49e1-a25b-25d3d841bd59")
+		)
+		(pin "1"
+			(uuid "9bbd754b-7cbd-4538-ae3b-845c34eaa282")
+		)
+		(pin "3"
+			(uuid "dc9f303f-f57d-4fa8-8807-0ba9abb709d8")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c642aa90-c817-427c-a54b-44d2640a344f")
+		(property "Reference" "R60"
+			(at 191.77 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 191.77 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 187.452 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 189.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6957a17a-526e-4ee0-af6b-a3d1bf6d4a61")
+		)
+		(pin "2"
+			(uuid "31f922ff-d0aa-4b51-875f-ee6939cb3dd4")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 270.51 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9d78f63-b919-423e-9dbb-ddc520f43e77")
+		(property "Reference" "Q35"
+			(at 275.59 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 275.59 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 275.59 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 270.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 270.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d58c3f9d-8c99-4fd4-a436-b80f4ed26ff4")
+		)
+		(pin "3"
+			(uuid "2dc96cfb-7233-44bc-94f6-91dbe02b180e")
+		)
+		(pin "2"
+			(uuid "3d34e890-1569-443a-915b-7011f30fc9f9")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 181.61 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d096e3b5-1501-4f00-8cbc-8367ca89562e")
+		(property "Reference" "Q39"
+			(at 186.69 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 186.69 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 186.69 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 181.61 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 181.61 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0d02769-3dc3-4612-8633-86a24777567b")
+		)
+		(pin "3"
+			(uuid "e3799b2b-a94b-4217-8251-bde7fd712412")
+		)
+		(pin "2"
+			(uuid "4eb04fc3-5bee-465d-afaa-f4df5823c258")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 138.43 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7dc91e8-2887-4a89-8e00-9b238f590b23")
+		(property "Reference" "R39"
+			(at 140.97 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 140.97 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 136.652 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7efb48f2-5ea1-483c-bc73-48ab77e9ffcb")
+		)
+		(pin "1"
+			(uuid "1890aaf7-fa4d-453e-b65d-c7215ed5352c")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d96715a7-c778-4fab-ac00-c3137199e5e5")
+		(property "Reference" "R51"
+			(at 267.97 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 267.97 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 263.652 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 265.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04dfe7e3-0e05-4a14-a516-0af954ac9854")
+		)
+		(pin "1"
+			(uuid "47e1003f-058a-4b45-8932-aab7de0a100f")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 219.71 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d96ea69c-f297-496a-9a41-07ba33eafdf2")
+		(property "Reference" "Q42"
+			(at 224.79 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 224.79 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 224.79 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 219.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 219.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3e23081c-22d1-47b7-9522-c7b2be0d7c50")
+		)
+		(pin "2"
+			(uuid "709523b0-f42d-4480-b24d-771e4fd6d239")
+		)
+		(pin "1"
+			(uuid "a8e195d7-280b-42ab-b247-38d418de4cb4")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 257.81 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd8378c5-474f-4e8e-b981-0f30eb13027f")
+		(property "Reference" "Q45"
+			(at 262.89 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 262.89 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 262.89 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 257.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 257.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdc77ae6-3592-4d3b-86f1-64a6f453063e")
+		)
+		(pin "1"
+			(uuid "749ee303-c30a-465b-adbb-d15d503274f6")
+		)
+		(pin "3"
+			(uuid "35f0ea1c-2de1-4651-a3b5-cd1dfac2eea7")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:MCP23017_SP")
+		(at 72.39 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0541bcf-20c9-41fe-b626-3e6f05c5d572")
+		(property "Reference" "A4"
+			(at 74.5841 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP23017_SP"
+			(at 74.5841 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(at 77.47 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf"
+			(at 77.47 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 72.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "b52aed34-cb5e-4f8e-936d-ff2500e027ef")
+		)
+		(pin "26"
+			(uuid "9850d8e2-ccd1-4295-9767-a11cc62dcf7c")
+		)
+		(pin "5"
+			(uuid "8a42de84-810a-4702-a9c0-02ca68ef90b8")
+		)
+		(pin "24"
+			(uuid "3d9268f8-2fc9-4715-bd59-9fd29cef4317")
+		)
+		(pin "4"
+			(uuid "8dfe29f4-d1d6-4f41-9e28-8543241758cc")
+		)
+		(pin "7"
+			(uuid "419b7cd3-284e-4e17-9508-ca8d85af30d1")
+		)
+		(pin "22"
+			(uuid "1410f524-5105-42ab-9d2f-ade697d32ffa")
+		)
+		(pin "6"
+			(uuid "24f99816-5fe9-455b-98d1-23ef124dd529")
+		)
+		(pin "21"
+			(uuid "f40df472-496f-4049-bd8d-fa20cc1b4fcb")
+		)
+		(pin "18"
+			(uuid "40a2ffb8-69f5-48dc-a8c8-053c0fcff630")
+		)
+		(pin "15"
+			(uuid "d02bfae7-1769-4a8e-8b75-f36d14edcec3")
+		)
+		(pin "28"
+			(uuid "315d0af8-a26d-4d9e-89be-f19b9c37cc15")
+		)
+		(pin "12"
+			(uuid "13191174-493d-4cbd-9374-cbc080fa824a")
+		)
+		(pin "20"
+			(uuid "bd6529dd-e19e-402d-b297-379c8a579119")
+		)
+		(pin "3"
+			(uuid "c0cd8c70-f0f1-44b4-a438-1afd64cd2d0a")
+		)
+		(pin "14"
+			(uuid "11d391c2-aecf-4e4f-bba1-b008e0c16f5e")
+		)
+		(pin "1"
+			(uuid "2e80e3f8-7a46-425e-b69e-34b6820ae943")
+		)
+		(pin "10"
+			(uuid "64d4df01-054d-4577-be9b-59749666d554")
+		)
+		(pin "11"
+			(uuid "dd35e1e6-1915-41f3-a7fa-7b912ee10131")
+		)
+		(pin "2"
+			(uuid "04f8319d-f751-4d37-9573-e8c09b7da4e1")
+		)
+		(pin "23"
+			(uuid "0d216423-6b81-4200-b9bf-8efa03ce2145")
+		)
+		(pin "27"
+			(uuid "27d8c5b4-7a7a-4e3e-9be7-47995a5659d2")
+		)
+		(pin "8"
+			(uuid "9363dc2c-23cf-4167-8906-ba31dd305727")
+		)
+		(pin "16"
+			(uuid "156e9ecf-ceed-4330-b264-3c9bc6309833")
+		)
+		(pin "25"
+			(uuid "854db09c-1a8e-44ca-ab37-ec47f41728a3")
+		)
+		(pin "17"
+			(uuid "f9c32bcc-8d80-46c7-bf5e-afcb34da32b9")
+		)
+		(pin "9"
+			(uuid "aae1f8c5-3ad4-4abc-acdf-88afd8917fba")
+		)
+		(pin "19"
+			(uuid "5781b158-b0fe-4392-940f-5f1e4202c4f7")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "A4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 194.31 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3d50c86-ba2a-461f-8c9c-45f76b59ee86")
+		(property "Reference" "Q29"
+			(at 199.39 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 199.39 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 199.39 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 194.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 194.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7b67ad2c-5bc9-44a5-a632-f3c8d861c18f")
+		)
+		(pin "2"
+			(uuid "fcd316ee-ca20-4a9f-8325-9419079ecf16")
+		)
+		(pin "1"
+			(uuid "99f33256-3b01-44d5-a6fa-2b02de51d224")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 207.01 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e57c3f60-73e4-46da-8861-a226b7f6b871")
+		(property "Reference" "Q41"
+			(at 212.09 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 212.09 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 212.09 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 207.01 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 207.01 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5f616aae-921b-4797-ba70-af5ba45d81fe")
+		)
+		(pin "2"
+			(uuid "5503022c-cd53-4df2-9916-c0f15eded696")
+		)
+		(pin "1"
+			(uuid "ca18d662-2cc5-458a-a1a4-838a62a167a9")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Nixie:Pin")
+		(at 46.99 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec63b702-9d8b-4564-a47d-3ece36d7ce6c")
+		(property "Reference" "E26"
+			(at 44.45 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 44.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Nixie:SingleHole"
+			(at 46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ef22e48-81cd-490f-8af5-85eb82c94204")
+		)
+		(instances
+			(project ""
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "E26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Nixie:Pin")
+		(at 78.74 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0acbb72-58ad-4fc1-b3cd-383451969dab")
+		(property "Reference" "E25"
+			(at 76.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 76.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Nixie:SingleHole"
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecf426c5-b450-4b53-aac5-ae784c95eeaa")
+		)
+		(instances
+			(project ""
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "E25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 181.61 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f420b869-70ac-4318-b04a-8959c8c7be3d")
+		(property "Reference" "Q28"
+			(at 186.69 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 186.69 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 186.69 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 181.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d028c357-a112-4d4c-95c7-569c908d11e1")
+		)
+		(pin "3"
+			(uuid "d920da0e-8a85-4923-b100-e17fc4779c0e")
+		)
+		(pin "2"
+			(uuid "0972894d-b4eb-4c9a-954e-ada48baee2c8")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5774914-7c52-47f4-b1c5-58359ef1c1a2")
+		(property "Reference" "R37"
+			(at 128.27 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R12K"
+			(at 128.27 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 123.952 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6d84b5a-ea5d-4c6c-9195-ed37e85904ea")
+		)
+		(pin "1"
+			(uuid "79c2da66-6a43-4e8e-bf6f-6a53c4a1a48b")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f61e3719-8636-4564-87f5-1097dafdcbc6")
+		(property "Reference" "R52"
+			(at 128.27 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R12K"
+			(at 128.27 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 123.952 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "766efefc-9609-4b27-931d-cf6d99a62687")
+		)
+		(pin "2"
+			(uuid "8023fccb-bf69-4fed-9a09-68ab84c7c9b4")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 194.31 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8fa9b86-e88a-457a-8f98-f3a3f521ae2d")
+		(property "Reference" "Q40"
+			(at 199.39 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 199.39 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 199.39 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 194.31 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 194.31 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "171209f9-c4d5-43e8-aa1a-f28800473f28")
+		)
+		(pin "2"
+			(uuid "9b32c1dc-b371-40f7-937d-951d9a95eb48")
+		)
+		(pin "1"
+			(uuid "e2c99317-32e1-4b83-b800-edf06a06cee7")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MPSA42")
+		(at 245.11 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faa0cf4b-8124-400d-866c-fcaa6a1741fb")
+		(property "Reference" "Q44"
+			(at 250.19 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPSA42"
+			(at 250.19 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 250.19 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MPSA42-D.PDF"
+			(at 245.11 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, TO-92"
+			(at 245.11 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8a99ae2-1b32-4272-922d-0ce3813bec47")
+		)
+		(pin "1"
+			(uuid "1902cf6d-fef5-4635-803e-05ce0515feb4")
+		)
+		(pin "3"
+			(uuid "37cffd6b-5b36-4281-9c51-8ecb9f305520")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "Q44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe7ea99f-f1a7-48d0-b62a-74e99082510f")
+		(property "Reference" "R46"
+			(at 204.47 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 204.47 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 200.152 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b19bf42b-f26e-42eb-b963-f168d61a9f13")
+		)
+		(pin "1"
+			(uuid "6480e595-71ff-42ba-acfc-fc959289bc55")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fedbc512-eb1e-4870-b947-98c468d16390")
+		(property "Reference" "R47"
+			(at 217.17 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 217.17 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 212.852 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c26e5db9-05c0-447e-83b6-c8d91da711f7")
+		)
+		(pin "2"
+			(uuid "51568b5e-0547-4148-8a5a-4e88f63e3d89")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff627f9a-4775-42ae-9c81-21e1d64786ac")
+		(property "Reference" "R42"
+			(at 166.37 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R33K"
+			(at 166.37 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Nixie:Resistor-a"
+			(at 162.052 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2874a528-72b6-4f1d-8fff-97a77a05e6a2")
+		)
+		(pin "1"
+			(uuid "4921ad9a-be90-4fbb-a93c-0ac8a18bc3ce")
+		)
+		(instances
+			(project "NTC"
+				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92/4a683942-1315-4074-8a4e-e71a8a4c1705"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

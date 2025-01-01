@@ -1,0 +1,170 @@
+(footprint "Socket_5-5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dc11928b-3fe2-46fe-a066-240bf20fd003")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Socket_5-5"
+		(at 0 -2.31 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9b343f89-5546-4fbd-84ae-78d33b04a09a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3df0c5d7-9573-4328-9f9c-5c199ee29755")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "523d05d6-3be4-492d-b1f5-1fc806a59486")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e16bee49-7e1e-4398-913d-80a9ae47ca14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -14.5 -4.5)
+		(end 0 4.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f23e68b5-8d60-4cad-8068-b68c73ddbf02")
+	)
+	(fp_text user "1"
+		(at -2.54 0 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "20ba07df-2ee2-4141-9eaa-fbc88c129124")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "3"
+		(at -8.89 0 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "479f675a-f420-49e4-8adf-de0565814e91")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "2"
+		(at -5.715 5.08 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "f404340d-3230-4a09-9e7c-b0bec9541588")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f07ad099-cac5-46fe-b70d-396c44eea4c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "b19dd7af-459c-4cc8-adc1-8e4cb837062b")
+	)
+	(pad "2" thru_hole circle
+		(at -3.2 5)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "d3075857-33c8-49fb-9809-5401bf77b934")
+	)
+	(pad "3" thru_hole circle
+		(at -6.2 0)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "c55cda8e-93a7-4faf-9b97-19206a1f8e0f")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
