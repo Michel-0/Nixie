@@ -1,0 +1,100 @@
+(footprint "Tube_PCB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9f4ee143-3d1f-4696-8356-3799487d1087")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Tube_PCB"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "25ff6639-9269-4565-b216-c1b25808d2c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77b57c8f-7734-40d7-85e2-b932eb255d15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4d9e69b-71e5-4371-9f2b-9d34d40f33a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bde79095-a634-4d03-842f-cd63747baac6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0aff8cbd-7be6-40d0-a6c8-b20a9d0b62e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 6.35 -8.89)
+		(size 1 1)
+		(drill 4)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2e650670-be8c-4148-aa0b-580af643cb40")
+	)
+	(model "${KIPRJMOD}/CAD/Socket.wrl"
+		(offset
+			(xyz -119.5 109.5 11.5)
+		)
+		(scale
+			(xyz 390 390 390)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
