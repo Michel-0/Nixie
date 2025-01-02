@@ -85,6 +85,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "76c764e2-727e-4d19-a0c8-1bca89b502d8")
 	)
 )

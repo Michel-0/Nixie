@@ -159,6 +159,7 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "d798c623-d805-4f87-a95f-a5de074f2e94")
 	)
 	(pad "2" thru_hole circle
@@ -167,6 +168,7 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "582782d6-f5cb-46a1-8a98-c4941781470e")
 	)
 	(pad "3" thru_hole circle
@@ -175,6 +177,7 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "a91da202-9974-4f78-82a1-ca0ee5ba68a4")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Inline_Wide.wrl"

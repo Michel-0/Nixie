@@ -138,6 +138,7 @@
 		(drill 2.5)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "b19dd7af-459c-4cc8-adc1-8e4cb837062b")
 	)
 	(pad "2" thru_hole circle
@@ -146,6 +147,7 @@
 		(drill 2.5)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "d3075857-33c8-49fb-9809-5401bf77b934")
 	)
 	(pad "3" thru_hole circle
@@ -154,6 +156,7 @@
 		(drill 2.5)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "c55cda8e-93a7-4faf-9b97-19206a1f8e0f")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.wrl"

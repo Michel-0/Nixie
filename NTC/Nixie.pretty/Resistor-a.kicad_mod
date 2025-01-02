@@ -117,6 +117,7 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "f6860564-d4a9-4736-afea-ea967dc4e275")
 	)
 	(pad "2" thru_hole circle
@@ -125,6 +126,7 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
 		(uuid "ba90a1e9-1084-4d9e-8c2c-ca8d0f8f2589")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl"
