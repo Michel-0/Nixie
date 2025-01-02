@@ -12,7 +12,9 @@ There are many different layouts with different features possible.
 * Tube voltage step-up boost converter not inclued on this PCB,  
 instead the layout has free space and connectors for it
 * Unlike most others, this doesn't use a RTC (real-time clock) with battery to keep the exact time,  
-instead a DCF77 (77,5 kHz) radio clock receiver to get the time once powered on.
+instead a DCF77 (77,5 kHz) radio clock receiver to get the time once powered on
+* Tube driver based on MPSA42 transistors controlled by MCP23008 & MCP23017 connected by I²C to the pico.  
+No historical sovjet ICs necessary
 * Supplied by external 12V DC
 * Provides connectors for 5V LEDs (e.g. for WS2812B)
 
