@@ -13,14 +13,18 @@ There are many different layouts with different features possible.
 instead the layout has free space and connectors for it
 * Unlike most others, this doesn't use a RTC (real-time clock) with battery to keep the exact time,  
 instead a DCF77 (77,5 kHz) radio clock receiver to get the time once powered on
-* Tube driver based on MPSA42 transistors controlled by MCP23008 & MCP23017 connected by I²C to the pico.  
+* Tube driver based on MPSA42 transistors controlled by MCP23008 & MCP23017 connected by I²C to the pico  
 No historical sovjet ICs necessary
 * Supplied by external 12V DC
-* Provides connectors for 5V LEDs (e.g. for WS2812B)
+* Provides connectors for 5V RGB LEDs (e.g. WS2812B)
 
 ## Repository
-The folder `NTC` is a KiCAD project.  
-Actually 3 projects: NTC (contains all), Main (clock schematic and PCB), Socket (IN-14 PCB).
+### KiCAD project
+Folder `NTC` contains 3 projects:
+**NTC** (*contains all*), **Main** (*clock schematic and PCB*), **Socket** (*IN-14 PCB*), as well as a project footprint library (containing **all** used footprints) and a project schematic symbols library (contains only a single symbol, all others are out of default libraries).
+
+### C++ VSCode project
+Pico software may or may not be added to this repository in near future.
 
 ## Datasheets
 Soon to be found on the wiki page.
