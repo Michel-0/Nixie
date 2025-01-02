@@ -9,12 +9,16 @@ There are many different layouts with different features possible.
 * Controlled by a Raspberry Pi Pico
 * Designed for Gazotron IN-14 tubes, may be adapted for others easily
 * Prepared for IN-3 tubes as colon dots
-* Tube voltage Step-up boost converter not inclued on this PCB,  
+* Tube voltage step-up boost converter not inclued on this PCB,  
 instead the layout has free space and connectors for it
 * Unlike most others, this doesn't use a RTC (real-time clock) with battery to keep the exact time,  
 instead a DCF77 (77,5 kHz) radio clock receiver to get the time once powered on.
 * Supplied by external 12V DC
 * Provides connectors for 5V LEDs (e.g. for WS2812B)
+
+## Repository
+The folder `NTC` is a KiCAD project.  
+Actually 3 projects: NTC (contains all), Main (clock schematic and PCB), Socket (IN-14 PCB).
 
 ## Datasheets
 Soon to be found on the wiki page.
