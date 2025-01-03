@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify right)
 		)
@@ -68,13 +68,14 @@
 			)
 		)
 	)
+	(solder_mask_margin 0.05)
 	(attr through_hole)
 	(fp_rect
 		(start -2.032 -12.954)
 		(end 17.272 0.254)
 		(stroke
 			(width 0.15)
-			(type default)
+			(type dash)
 		)
 		(fill none)
 		(layer "F.SilkS")
@@ -190,7 +191,6 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "6cb05382-b192-448f-840f-6e14b89cf57c")
 	)
 	(pad "2" thru_hole circle
@@ -199,7 +199,6 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "8ac4feb9-39ad-44a0-99bb-30d5886b3b57")
 	)
 	(pad "3" thru_hole circle
@@ -208,7 +207,6 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "f23700c5-5d89-4f96-9205-b1328b0cadd3")
 	)
 	(pad "4" thru_hole circle
@@ -217,7 +215,6 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "e35295d6-7ed4-44c8-8196-3575e8c59884")
 	)
 	(pad "5" thru_hole circle
@@ -226,7 +223,6 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "d2ed590e-2742-42dd-a7be-6b21fa9bd80d")
 	)
 	(pad "6" thru_hole circle
@@ -235,7 +231,6 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "4c7e54c2-8148-420f-b723-ab0c771f9ee7")
 	)
 	(pad "7" thru_hole circle
@@ -244,7 +239,6 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "b4b8fc5b-ebda-4ff7-afb1-dc3510f57c85")
 	)
 	(model "${KIPRJMOD}/CAD/DCDC.wrl"

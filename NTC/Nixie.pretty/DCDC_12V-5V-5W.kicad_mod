@@ -1,32 +1,31 @@
-(footprint "Socket_5-5"
+(footprint "DCDC_12V-5V-5W"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -3.81 0)
+		(at -3.81 1.27 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "dc11928b-3fe2-46fe-a066-240bf20fd003")
+		(uuid "6e2acaf0-cbda-42f4-8ff9-1f084332dca1")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left)
+			(justify right)
 		)
 	)
-	(property "Value" "Socket_5-5"
-		(at 0 -2.31 0)
+	(property "Value" "DCDC_12V-5V-5W"
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9b343f89-5546-4fbd-84ae-78d33b04a09a")
+		(uuid "af768284-5040-4375-9eb4-5ba66d69b2da")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left)
 		)
 	)
 	(property "Footprint" ""
@@ -34,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3df0c5d7-9573-4328-9f9c-5c199ee29755")
+		(uuid "ed794087-ce05-45d6-93cf-9e12b9be60f1")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "523d05d6-3be4-492d-b1f5-1fc806a59486")
+		(uuid "aab6c1e8-1f4b-446d-b66a-7fc249aef05f")
 		(effects
 			(font
 				(size 1 1)
@@ -60,7 +59,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e16bee49-7e1e-4398-913d-80a9ae47ca14")
+		(uuid "a82774ce-de8b-4a4e-a034-e5a9f2147801")
 		(effects
 			(font
 				(size 1 1)
@@ -71,21 +70,21 @@
 	(solder_mask_margin 0.05)
 	(attr through_hole)
 	(fp_rect
-		(start -14.5 -4.5)
-		(end 0 4.5)
+		(start -3.4925 -2.54)
+		(end 8.5725 6.35)
 		(stroke
 			(width 0.15)
-			(type default)
+			(type dash)
 		)
 		(fill none)
 		(layer "F.SilkS")
-		(uuid "f23e68b5-8d60-4cad-8068-b68c73ddbf02")
+		(uuid "9e5dd8fe-612f-45a3-85aa-2f4e616184ea")
 	)
-	(fp_text user "1"
-		(at -2.54 0 0)
+	(fp_text user "Vin"
+		(at 0 1.27 90)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "20ba07df-2ee2-4141-9eaa-fbc88c129124")
+		(uuid "027f9d3b-0971-4d37-8ffd-4e3b7e60e9e4")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -94,11 +93,11 @@
 			(justify left mirror)
 		)
 	)
-	(fp_text user "3"
-		(at -8.89 0 0)
+	(fp_text user "Vout"
+		(at 5.08 1.27 90)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "479f675a-f420-49e4-8adf-de0565814e91")
+		(uuid "31033b06-0a6d-4b5d-933d-aa965a7f1dbc")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -107,11 +106,11 @@
 			(justify left mirror)
 		)
 	)
-	(fp_text user "2"
-		(at -5.715 5.08 0)
+	(fp_text user "GND"
+		(at 2.54 1.27 90)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "f404340d-3230-4a09-9e7c-b0bec9541588")
+		(uuid "bd86e048-7055-44c5-871a-618d300db110")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -121,51 +120,39 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -0.81 0)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f07ad099-cac5-46fe-b70d-396c44eea4c2")
+		(uuid "ad60985e-a6c6-469f-b4a3-93411caac2e4")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left)
 		)
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 4 4)
-		(drill 2.5)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(uuid "b19dd7af-459c-4cc8-adc1-8e4cb837062b")
+		(uuid "79807cdf-0e8a-4c4e-8b89-a598a03f089d")
 	)
 	(pad "2" thru_hole circle
-		(at -3.2 5)
-		(size 4 4)
-		(drill 2.5)
+		(at 2.54 0)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(uuid "d3075857-33c8-49fb-9809-5401bf77b934")
+		(uuid "d06e50a8-3af4-4c6c-84b4-39d57a673201")
 	)
 	(pad "3" thru_hole circle
-		(at -6.2 0)
-		(size 4 4)
-		(drill 2.5)
+		(at 5.08 0)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(uuid "c55cda8e-93a7-4faf-9b97-19206a1f8e0f")
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
+		(uuid "0f98e401-36c1-4762-9a19-8b03f822c745")
 	)
 )

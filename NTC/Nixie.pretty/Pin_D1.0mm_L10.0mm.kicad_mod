@@ -66,6 +66,7 @@
 			)
 		)
 	)
+	(solder_mask_margin 0.05)
 	(attr through_hole)
 	(fp_circle
 		(center 0 0)
@@ -95,7 +96,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "3c98ed59-f764-4ba2-9cf6-334888b66ee7")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.wrl"

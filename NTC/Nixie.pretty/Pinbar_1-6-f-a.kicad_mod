@@ -68,6 +68,7 @@
 			)
 		)
 	)
+	(solder_mask_margin 0.05)
 	(attr through_hole)
 	(fp_rect
 		(start -1.27 -1.27)
@@ -177,7 +178,6 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "950738b1-fd7c-4eb1-891a-694ca58f73e6")
 	)
 	(pad "2" thru_hole circle
@@ -186,7 +186,6 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "f30d117a-5302-4d31-a9d8-45635cda9898")
 	)
 	(pad "3" thru_hole rect
@@ -195,7 +194,6 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "9b81a3e6-d952-4116-8fbe-a37b6077b5f3")
 	)
 	(pad "4" thru_hole circle
@@ -204,7 +202,6 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "d2882de3-7395-4a0e-9631-aea6a6637381")
 	)
 	(pad "5" thru_hole circle
@@ -213,7 +210,6 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "78dc4b49-30da-4734-8443-90537976920e")
 	)
 	(pad "6" thru_hole circle
@@ -222,7 +218,6 @@
 		(drill 1)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "efc9c3a3-8683-4035-b571-d33113aa9038")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.wrl"

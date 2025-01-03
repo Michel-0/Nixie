@@ -68,6 +68,7 @@
 			)
 		)
 	)
+	(solder_mask_margin 0.05)
 	(attr through_hole)
 	(fp_line
 		(start -2.54 -1.75)
@@ -168,7 +169,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "10a3b980-abc2-4c6c-83ed-d4ed781238a5")
 	)
 	(pad "2" thru_hole circle
@@ -177,7 +177,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "7bbb7e80-5f4f-417c-9c13-ade2086bd7b9")
 	)
 	(pad "3" thru_hole circle
@@ -186,7 +185,6 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "2a2db182-639e-4acc-9972-3f01936de2b0")
 	)
 	(pad "4" thru_hole circle
@@ -195,7 +193,6 @@
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(solder_mask_margin 0.05)
 		(uuid "bb4e8783-b096-4ce0-93fa-ebd978645c58")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_SPST_Angled_PTS645Vx39-2LFS.wrl"
