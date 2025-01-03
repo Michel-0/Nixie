@@ -27,7 +27,7 @@ Folder `NTC` contains 3 projects:
 Pico software may or may not be added to this repository in near future.
 
 ## Datasheets
-Soon to be found on the wiki page.
+[IN-14 Manual](IN‐14-Manuals)
 
 ## Dimensioning
-Resistor and voltage calculations to be added soon.
+[IN-14 Calculations](IN‐14-Calculations)
