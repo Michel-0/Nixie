@@ -27,7 +27,7 @@ Folder `NTC` contains 3 projects:
 Pico software may or may not be added to this repository in near future.
 
 ## Datasheets
-[IN-14 Manual](/wiki/IN‐14-Manuals)
+[IN-14 Manual](../../wiki/IN‐14-Manuals)
 
 ## Dimensioning
-[IN-14 Calculations](/wiki/IN‐14-Calculations)
+[IN-14 Calculations](../../wiki/IN‐14-Calculations)
