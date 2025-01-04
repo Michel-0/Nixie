@@ -6,17 +6,19 @@ There are many different layouts with different features possible.
 
 **Best for me is the following:**
 ![NTC](https://github.com/user-attachments/assets/dcb12e0a-b194-440a-8b89-950e80abbbd8)
-* Controlled by a Raspberry Pi Pico
-* Designed for Gazotron IN-14 tubes, may be adapted for others easily
-* Prepared for IN-3 tubes as colon dots
+* Controlled by a Raspberry Pi Pico.
+* Designed for Gazotron IN-14 tubes, may be adapted for others easily.  
+E.g. IN-8 and IN-8-2 should be compatible without any change.
+* Makes use of the right decimal point of the tube, but not the left one.
+* Prepared for IN-3 tubes as colon dots.
 * Tube voltage step-up boost converter not inclued on this PCB,  
-instead the layout has free space and connectors for it
+instead the layout has free space and connectors for it.
 * Unlike most others, this doesn't use a RTC (real-time clock) with battery to keep the exact time,  
-instead a DCF77 (77,5 kHz) radio clock receiver to get the time once powered on
-* Tube driver based on MPSA42 transistors controlled by MCP23008 & MCP23017 connected by I²C to the pico  
+instead a DCF77 (77,5 kHz) radio clock receiver to get the time once powered on.
+* Tube driver based on MPSA42 transistors controlled by MCP23008 & MCP23017 connected by I²C to the pico.  
 No historical sovjet ICs necessary
-* Supplied by external 12V DC
-* Provides connectors for 5V RGB LEDs (e.g. WS2812B)
+* Supplied by external 12V DC.
+* Provides connectors for 5V RGB LEDs (e.g. WS2812B).
 
 ## Repository
 ### KiCAD project
