@@ -6182,7 +6182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c61a6f62-a432-47ca-813d-8b6b8eae8f22")
-		(property "Reference" "X21"
+		(property "Reference" "X15"
 			(at 104.1401 133.35 0)
 			(effects
 				(font
@@ -6242,7 +6242,7 @@
 		(instances
 			(project ""
 				(path "/ecf22f8e-0676-4495-9357-338c1fd23f92"
-					(reference "X21")
+					(reference "X15")
 					(unit 1)
 				)
 			)

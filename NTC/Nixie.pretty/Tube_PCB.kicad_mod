@@ -80,7 +80,7 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at 6.35 -8.89)
+		(at 7.62 -8.89)
 		(size 1 1)
 		(drill 4)
 		(layers "F&B.Cu" "*.Mask")
@@ -88,10 +88,10 @@
 	)
 	(model "${KIPRJMOD}/CAD/Socket.wrl"
 		(offset
-			(xyz -119.5 109.5 11.5)
+			(xyz 0 0 11.5)
 		)
 		(scale
-			(xyz 390 390 390)
+			(xyz 0.39 0.39 0.39)
 		)
 		(rotate
 			(xyz 0 0 0)

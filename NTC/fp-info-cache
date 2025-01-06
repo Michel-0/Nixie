@@ -1,4 +1,4 @@
-24449102573639474
+24452576600915585
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68368,6 +68368,20 @@ Pinbar_1-20-f
 0
 40
 40
+Nixie
+Pinbar_4-14-f
+
+
+0
+14
+14
+Nixie
+Pinbar_4-14-m
+
+
+0
+14
+14
 Nixie
 Resistor-a
 

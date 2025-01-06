@@ -125,7 +125,7 @@
 	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 2 2)
-		(drill 7)
+		(drill 8)
 		(layers "*.Mask")
 		(uuid "963b796c-2cbc-46b8-ad06-491787f59752")
 	)

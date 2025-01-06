@@ -10,10 +10,9 @@
 		(uuid "2a31ce18-b1e8-4894-b9a4-de758c97797a")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
-			(justify bottom)
 		)
 	)
 	(property "Value" "Resistor-a"

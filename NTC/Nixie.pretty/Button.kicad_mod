@@ -150,6 +150,32 @@
 		(layer "F.SilkS")
 		(uuid "c397bce2-2183-482f-80b5-1b85dff9dd2d")
 	)
+	(fp_text user "2"
+		(at 1.27 3.23 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "3fc93e51-82f6-47ed-9fd5-94b47e1e415d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "1"
+		(at 1.27 1.27 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "c33e2baa-815b-4220-b2dd-6ca6816520a0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 4.445 5.31 0)
 		(unlocked yes)
