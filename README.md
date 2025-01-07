@@ -9,7 +9,8 @@ There are many different layouts with different features possible.
 * Controlled by a Raspberry Pi Pico.
 * Designed for Gazotron IN-14 tubes, may be adapted for others easily.  
 E.g. IN-8 and IN-8-2 should be compatible without any change.
-* Makes use of the right decimal point of the tube, but not the left one.
+* Makes use of the right comma of the tube, but not the left one.  
+However the tube socket PCB connects both to the main PCB.
 * Prepared for IN-3 tubes as colon dots.
 * Tube voltage step-up boost converter not inclued on this PCB.  
 Instead the layout has free space and connectors for it.
@@ -28,7 +29,7 @@ Clock schematic and PCB
 * **Socket**:  
 IN-14 schematic and PCB
 * As well as a project footprint library and a project schematic symbols library.
-* Also the CAD models which weren't included in the default library.
+* Also the CAD models that weren't included in the default library.
 
 ### C++ VSCode project
 Pico software may or may not be added to this repository in near future.
