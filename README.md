@@ -25,10 +25,10 @@ No historical sovjet ICs necessary
 Folder `NTC` contains 2 projects:
 * **Main**:  
 Clock schematic and PCB
-* **Socket**:
+* **Socket**:  
 IN-14 schematic and PCB
 * As well as a project footprint library and a project schematic symbols library.
-* Also CAD models which weren't included in the default library.
+* Also the CAD models which weren't included in the default library.
 
 ### C++ VSCode project
 Pico software may or may not be added to this repository in near future.
