@@ -5,7 +5,7 @@ All you need to know to build a cold cathode tube display clock
 There are many different layouts with different features possible.
 
 **Best for me is the following:**
-![NTC](https://github.com/user-attachments/assets/dcb12e0a-b194-440a-8b89-950e80abbbd8)
+![Unbenannt](https://github.com/user-attachments/assets/1d0b24d6-b6b8-4ede-a364-c122920ef984)
 * Controlled by a Raspberry Pi Pico.
 * Designed for Gazotron IN-14 tubes, may be adapted for others easily.  
 E.g. IN-8 and IN-8-2 should be compatible without any change.
