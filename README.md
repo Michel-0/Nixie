@@ -23,13 +23,17 @@ No historical sovjet ICs necessary
 
 ## Repository
 ### KiCAD project
-Folder `NTC` contains 2 projects:
+Folder `NTC` contains:
 * **Main**:  
 Clock schematic and PCB
 * **Socket**:  
 IN-14 schematic and PCB
-* As well as a project footprint library and a project schematic symbols library.
-* Also the CAD models that weren't included in the default library.
+* **Footprints**  
+Project library called `Nixie` containing all used footprints
+* **Symbols**  
+Project library called `Nixie` containig an additional symbol
+* **CAD**  
+3D models that weren't included in the default library
 
 ### C++ VSCode project
 Pico software may or may not be added to this repository in near future.
