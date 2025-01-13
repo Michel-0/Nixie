@@ -15,7 +15,7 @@ However the tube socket PCB connects both to the main PCB.
 * Tube voltage step-up boost converter not inclued on this PCB.  
 Instead the layout has free space and connectors for it.
 * With a DCF77 (77,5 kHz) radio clock receiver to get the time once powered on.  
-Because of interferences from high frequent I²C and step-up boost conberter it has a RTC (real-time clock) with battery, too.
+Because of interferences from high frequent I²C and the step-up boost converter it has a RTC (real-time clock) with battery, too.
 * Tube driver based on MPSA42 transistors controlled by MCP23008 & MCP23017 connected by I²C to the pico.  
 No historical sovjet ICs necessary
 * Supplied by external 12V DC.
