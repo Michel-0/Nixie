@@ -2,10 +2,11 @@
 All you need to know to build a cold cathode tube display clock
 
 ## Concept
-There are many different layouts with different features possible.
+There are many different concepts with different features possible.
 
-**Best for me is the following:**
-![Unbenannt](https://github.com/user-attachments/assets/1d0b24d6-b6b8-4ede-a364-c122920ef984)
+**The concept of this repository:**
+![Unbenannt](https://github.com/user-attachments/assets/10ff120a-ad9f-4452-9ef4-7cb00e34a338)
+
 * Controlled by a Raspberry Pi Pico.
 * Designed for Gazotron IN-14 tubes, may be adapted for others easily.  
 E.g. IN-8 and IN-8-2 should be compatible without any change.
@@ -14,8 +15,12 @@ However the tube socket PCB connects both to the main PCB.
 * Prepared for IN-3 tubes as colon dots.
 * Tube voltage step-up boost converter not inclued on this PCB.  
 Instead the layout has free space and connectors for it.
-* With a DCF77 (77,5 kHz) radio clock receiver to get the time once powered on.  
-Because of interferences from high frequent I²C and the step-up boost converter it has a RTC (real-time clock) with battery, too.
+* For syncing / keeping time there are 3 options (multiple combinable)
+  * **Option A:** A DCF77 (77,5 kHz) radio clock receiver to get the time once powered on.  
+Unstable because of many high frequent things on the board.
+  * **Option B:** A RTC (real-time clock) with battery.  
+Requires manual time input once or combination with another option.
+  * **Option C:** A GPS receiver to get the GPS time once powered on.
 * Tube driver based on MPSA42 transistors controlled by MCP23008 & MCP23017 connected by I²C to the pico.  
 No historical sovjet ICs necessary
 * Supplied by external 12V DC.
