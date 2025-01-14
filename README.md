@@ -17,10 +17,11 @@ However the tube socket PCB connects both to the main PCB.
 Instead the layout has free space and connectors for it.
 * For syncing / keeping time there are 3 options (multiple combinable)
   * **Option A:** A DCF77 (77,5 kHz) radio clock receiver to get the time once powered on.  
-Unstable because of many high frequent things on the board.
+Smallest, cheapest and easiest option, but unstable because of many high frequent other things on the board.
   * **Option B:** A RTC (real-time clock) with battery.  
 Requires manual time input once or combination with another option.
-  * **Option C:** A GPS receiver to get the GPS time once powered on.
+  * **Option C:** A GPS receiver to get the GPS time once powered on.  
+Seems a bit like a overkill, but actually a valid option. Size and costs similar as A & B together.
 * Tube driver based on MPSA42 transistors controlled by MCP23008 & MCP23017 connected by I²C to the pico.  
 No historical sovjet ICs necessary
 * Supplied by external 12V DC.
