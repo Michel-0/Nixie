@@ -2,19 +2,26 @@
 All you need to know to build a cold cathode tube display clock
 
 ## Concept
-There are many different layouts with different features possible.
+There are many different concepts with different features possible.
 
-**Best for me is the following:**
-![NTC](https://github.com/user-attachments/assets/dcb12e0a-b194-440a-8b89-950e80abbbd8)
+**The concept of this repository:**
+![Unbenannt](https://github.com/user-attachments/assets/10ff120a-ad9f-4452-9ef4-7cb00e34a338)
+
 * Controlled by a Raspberry Pi Pico.
 * Designed for Gazotron IN-14 tubes, may be adapted for others easily.  
 E.g. IN-8 and IN-8-2 should be compatible without any change.
-* Makes use of the right decimal point of the tube, but not the left one.
+* Makes use of the right comma of the tube, but not the left one.  
+However the tube socket PCB connects both to the main PCB.
 * Prepared for IN-3 tubes as colon dots.
-* Tube voltage step-up boost converter not inclued on this PCB,  
-instead the layout has free space and connectors for it.
-* Unlike most others, this doesn't use a RTC (real-time clock) with battery to keep the exact time,  
-instead a DCF77 (77,5 kHz) radio clock receiver to get the time once powered on.
+* Tube voltage step-up boost converter not inclued on this PCB.  
+Instead the layout has free space and connectors for it.
+* For syncing / keeping time there are 3 options (multiple combinable)
+  * **Option A:** A DCF77 (77,5 kHz) radio clock receiver to get the time once powered on.  
+Smallest, cheapest and easiest option, but unstable because of many high frequent other things on the board.
+  * **Option B:** A RTC (real-time clock) with battery.  
+Requires manual time input once or combination with another option.
+  * **Option C:** A GPS receiver to get the GPS time once powered on.  
+Seems a bit like a overkill, but actually a valid option. Size and costs similar as A & B together.
 * Tube driver based on MPSA42 transistors controlled by MCP23008 & MCP23017 connected by I²C to the pico.  
 No historical sovjet ICs necessary
 * Supplied by external 12V DC.
@@ -22,8 +29,17 @@ No historical sovjet ICs necessary
 
 ## Repository
 ### KiCAD project
-Folder `NTC` contains 3 projects:
-**NTC** (*contains all*), **Main** (*clock schematic and PCB*), **Socket** (*IN-14 PCB*), as well as a project footprint library (containing **all** used footprints) and a project schematic symbols library (contains only a single symbol, all others are out of default libraries).
+Folder `NTC` contains:
+* **Main**:  
+Clock schematic and PCB
+* **Socket**:  
+IN-14 schematic and PCB
+* **Footprints**  
+Project library called `Nixie` containing all used footprints
+* **Symbols**  
+Project library called `Nixie` containig an additional symbol
+* **CAD**  
+3D models that weren't included in the default library
 
 ### C++ VSCode project
 Pico software may or may not be added to this repository in near future.
