@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "DCDC_12V-5V-5W"
-		(at 0 1 0)
+		(at -3.81 2.54 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "af768284-5040-4375-9eb4-5ba66d69b2da")
@@ -26,6 +26,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify right)
 		)
 	)
 	(property "Footprint" ""
@@ -87,7 +88,7 @@
 		(uuid "027f9d3b-0971-4d37-8ffd-4e3b7e60e9e4")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -100,7 +101,7 @@
 		(uuid "31033b06-0a6d-4b5d-933d-aa965a7f1dbc")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -113,14 +114,14 @@
 		(uuid "bd86e048-7055-44c5-871a-618d300db110")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at -3.81 4.04 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "ad60985e-a6c6-469f-b4a3-93411caac2e4")
@@ -129,6 +130,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify right)
 		)
 	)
 	(pad "1" thru_hole circle

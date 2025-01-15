@@ -88,7 +88,7 @@
 		(uuid "00d0431f-5e5c-4742-9eb2-dd32fca0e983")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -101,7 +101,7 @@
 		(uuid "29ec862d-d2ac-4af8-afa3-9c19a1bf144f")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -114,7 +114,7 @@
 		(uuid "2f2bc336-9366-44f2-a39f-82e11572abb6")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -127,7 +127,7 @@
 		(uuid "3b41ac0d-2a20-4904-8286-0d923463ddb6")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -140,7 +140,7 @@
 		(uuid "4ef7f7f2-3108-427a-a5fc-3aecf6b9f8f1")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -153,7 +153,7 @@
 		(uuid "7d3c0ca2-4693-4794-b620-67ebde7105ea")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -166,7 +166,7 @@
 		(uuid "d5a00f8a-b346-45cc-a6b2-f7b212b276ba")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -185,6 +185,14 @@
 			(justify right)
 		)
 	)
+	(pad "" thru_hole circle
+		(at 12.7 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "f23700c5-5d89-4f96-9205-b1328b0cadd3")
+	)
 	(pad "1" thru_hole circle
 		(at 0 -12.7)
 		(size 2 2)
@@ -200,14 +208,6 @@
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
 		(uuid "8ac4feb9-39ad-44a0-99bb-30d5886b3b57")
-	)
-	(pad "3" thru_hole circle
-		(at 12.7 0)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "B.Mask")
-		(remove_unused_layers no)
-		(uuid "f23700c5-5d89-4f96-9205-b1328b0cadd3")
 	)
 	(pad "4" thru_hole circle
 		(at 2.54 0)

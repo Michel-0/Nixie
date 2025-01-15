@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 3.81 2.54 0)
+		(at -2.54 0 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d4b8a04f-e9d4-4ade-b228-e318e3ef1389")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Pinbar_1-4-f-a"
-		(at 3.81 3.81 0)
+		(at 0 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "51da2626-56f4-47bf-8ffd-3180d7a62896")
@@ -80,59 +80,59 @@
 		(uuid "7ed631c9-dc5a-44ec-996b-ed2c9873c159")
 	)
 	(fp_text user "-"
-		(at 2.54 -1.905 0)
+		(at 2.54 -1.27 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "3312c87d-d8b7-49ed-b53e-c5d3214e63f3")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify bottom mirror)
 		)
 	)
 	(fp_text user "-"
-		(at 7.62 -1.905 0)
+		(at 7.62 -1.27 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "7f1eb523-f7ad-44b1-9d88-fb47b472450f")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify bottom mirror)
 		)
 	)
 	(fp_text user "+"
-		(at 5.08 -1.905 0)
+		(at 5.08 -1.27 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "d9470a86-8af5-4208-b0e1-7dc3ee430f30")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify bottom mirror)
 		)
 	)
 	(fp_text user "+"
-		(at 0 -1.905 0)
+		(at 0 -1.27 0)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "fb29fba9-c1b3-4986-8d45-aac9c1c22a9e")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify bottom mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 3.81 5.08 0)
+		(at -1.27 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "7475a96d-e683-463d-9b55-ad2c32531643")

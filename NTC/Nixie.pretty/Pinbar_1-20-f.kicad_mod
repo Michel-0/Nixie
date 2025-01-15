@@ -99,7 +99,7 @@
 		(uuid "0c7ebf5c-7e70-42a4-933f-cfa06c66b4a0")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -112,7 +112,7 @@
 		(uuid "0fc0bb40-d7fe-41a0-b0f5-4edf608f4a3d")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -125,7 +125,7 @@
 		(uuid "180cd5d8-e889-42f7-9bbe-9e5d8a9b1ef5")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -138,7 +138,7 @@
 		(uuid "192c68c2-b1a1-4dfe-a380-87094e3b20b7")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -151,7 +151,7 @@
 		(uuid "262f53b8-620d-4398-9833-1c16d2911685")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -164,7 +164,7 @@
 		(uuid "2ca66ac4-3bae-4d9f-8592-54cbabc79647")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -177,7 +177,7 @@
 		(uuid "2d311b1c-cd95-4dc4-ae58-7704412304df")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -190,7 +190,7 @@
 		(uuid "30164d7f-b102-4c81-9054-dbb043d6a890")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -203,7 +203,7 @@
 		(uuid "30873ca0-66e3-41f6-8670-b1a4186bee2e")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -216,7 +216,7 @@
 		(uuid "34aae57a-c2bb-444f-b898-0ca832568b55")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -229,7 +229,7 @@
 		(uuid "38795e02-55cd-4c8b-9a74-f0b21a20a8b1")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -242,7 +242,7 @@
 		(uuid "466e33f2-e655-4a50-afc6-2ff042c66638")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -255,7 +255,7 @@
 		(uuid "4953f5c2-1589-41da-981e-e48c61c93dbf")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -268,7 +268,7 @@
 		(uuid "4c6b7b37-9f90-4217-8786-0e013e136333")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -281,7 +281,7 @@
 		(uuid "4d4f8cc7-eff3-4292-a3f9-b1f928873ae7")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -294,7 +294,7 @@
 		(uuid "557838fa-f8dc-47fa-bacc-bc15ff54c1a8")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -307,7 +307,7 @@
 		(uuid "56d66bc9-5816-4636-a924-4a5a1c0b698c")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -320,7 +320,7 @@
 		(uuid "5851d06e-88ce-40b0-80dd-38c637aed84e")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -333,7 +333,7 @@
 		(uuid "63d4867e-5193-4c6b-9d38-0d6ddc1071c7")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -346,7 +346,7 @@
 		(uuid "64291808-f4e9-4328-9354-7ff455101226")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -359,7 +359,7 @@
 		(uuid "682e5b59-c34e-4556-b083-fa6eb5510683")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -372,7 +372,7 @@
 		(uuid "6b233c55-3c20-4eed-9bf3-46db96ce4462")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -385,7 +385,7 @@
 		(uuid "73535658-f079-42ae-b09c-5f469d677ef7")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -398,7 +398,7 @@
 		(uuid "777f456f-ca9f-4def-8979-0d26417d9466")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -411,7 +411,7 @@
 		(uuid "8c2d72f7-605e-4e79-b019-f780ba69f424")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -424,7 +424,7 @@
 		(uuid "91d2be4e-5fd7-413f-ace0-288728b0f3c5")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -437,7 +437,7 @@
 		(uuid "92897ade-5791-4e5a-b80d-4f958ed97515")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -450,7 +450,7 @@
 		(uuid "9aa64288-2ae2-44c3-a519-6df5bd8d1176")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -463,7 +463,7 @@
 		(uuid "a1617115-b702-4ae6-9cd0-24adb6247c31")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -476,7 +476,7 @@
 		(uuid "b5c482a0-6038-422b-b099-3f5289eb5dff")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -489,7 +489,7 @@
 		(uuid "ba08d92d-150a-43b8-99db-126b8d631790")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -502,7 +502,7 @@
 		(uuid "bd175906-c032-4625-b1d7-9173c4a03735")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -515,7 +515,7 @@
 		(uuid "c5be55a3-1aad-4a15-b989-ce4e643ceaef")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -528,7 +528,7 @@
 		(uuid "c6b76020-5d90-44a4-beb1-cb5fd53dfaf9")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -541,7 +541,7 @@
 		(uuid "c9b86c1d-d015-434e-a42b-6554ac2cfec9")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -554,7 +554,7 @@
 		(uuid "d684cced-fa50-481d-a758-f6e53f11c54a")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -567,7 +567,7 @@
 		(uuid "dabc673c-61f4-4ef5-b93f-4225bcd1d4d7")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -580,7 +580,7 @@
 		(uuid "ee9bfd72-653c-4f05-9613-fc5a5391ea72")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)
@@ -593,7 +593,7 @@
 		(uuid "efc8f7c6-48b3-4dfe-99df-fec5e498c785")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -606,7 +606,7 @@
 		(uuid "f12065a7-a71d-4398-977c-3dff654d28e6")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify right mirror)

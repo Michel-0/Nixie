@@ -88,7 +88,7 @@
 		(uuid "20ba07df-2ee2-4141-9eaa-fbc88c129124")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -101,7 +101,7 @@
 		(uuid "479f675a-f420-49e4-8adf-de0565814e91")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -114,7 +114,7 @@
 		(uuid "f404340d-3230-4a09-9e7c-b0bec9541588")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left mirror)
@@ -137,7 +137,7 @@
 		(at 0 0)
 		(size 4 4)
 		(drill 2.5)
-		(layers "*.Cu" "B.Mask")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b19dd7af-459c-4cc8-adc1-8e4cb837062b")
 	)
@@ -145,7 +145,7 @@
 		(at -3.2 5)
 		(size 4 4)
 		(drill 2.5)
-		(layers "*.Cu" "B.Mask")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "d3075857-33c8-49fb-9809-5401bf77b934")
 	)
@@ -153,7 +153,7 @@
 		(at -6.2 0)
 		(size 4 4)
 		(drill 2.5)
-		(layers "*.Cu" "B.Mask")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c55cda8e-93a7-4faf-9b97-19206a1f8e0f")
 	)

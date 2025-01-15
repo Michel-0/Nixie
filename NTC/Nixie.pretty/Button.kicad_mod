@@ -157,7 +157,7 @@
 		(uuid "3fc93e51-82f6-47ed-9fd5-94b47e1e415d")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify mirror)
@@ -170,7 +170,7 @@
 		(uuid "c33e2baa-815b-4220-b2dd-6ca6816520a0")
 		(effects
 			(font
-				(size 0.8 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify mirror)
@@ -189,6 +189,22 @@
 			(justify left)
 		)
 	)
+	(pad "" thru_hole circle
+		(at 2.5 -1.25)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a2db182-639e-4acc-9972-3f01936de2b0")
+	)
+	(pad "" thru_hole circle
+		(at 2.5 5.75)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bb4e8783-b096-4ce0-93fa-ebd978645c58")
+	)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 2 2)
@@ -204,22 +220,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "7bbb7e80-5f4f-417c-9c13-ade2086bd7b9")
-	)
-	(pad "3" thru_hole circle
-		(at 2.5 -1.25)
-		(size 3 3)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "2a2db182-639e-4acc-9972-3f01936de2b0")
-	)
-	(pad "4" thru_hole circle
-		(at 2.5 5.75)
-		(size 3 3)
-		(drill 1.5)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "bb4e8783-b096-4ce0-93fa-ebd978645c58")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_SPST_Angled_PTS645Vx39-2LFS.wrl"
 		(offset

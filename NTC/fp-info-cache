@@ -1,4 +1,4 @@
-24452576600915585
+24449111785780510
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68255,14 +68255,14 @@ Button
 
 0
 4
-4
+2
 Nixie
 DCDC_12V-5V-3W
 
 
 0
 7
-7
+6
 Nixie
 DCDC_12V-5V-5W
 
@@ -68334,33 +68334,19 @@ Pinbar_1-4-f-b
 4
 4
 Nixie
-Pinbar_1-6-f-a
+Pinbar_1-4-f-c
 
 
 0
-6
-6
+4
+4
 Nixie
-Pinbar_1-6-f-b
+Pinbar_1-4-f-d
 
 
 0
-6
-6
-Nixie
-Pinbar_1-6-m-a
-
-
-0
-6
-6
-Nixie
-Pinbar_1-6-m-b
-
-
-0
-6
-6
+4
+4
 Nixie
 Pinbar_1-20-f
 
