@@ -80,7 +80,7 @@
 		(uuid "7ed631c9-dc5a-44ec-996b-ed2c9873c159")
 	)
 	(fp_text user "VCC"
-		(at 0 -1.524 90)
+		(at 7.62 -1.27 90)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "3312c87d-d8b7-49ed-b53e-c5d3214e63f3")
@@ -93,7 +93,7 @@
 		)
 	)
 	(fp_text user "TX"
-		(at 5.08 -1.27 90)
+		(at 2.54 -1.27 90)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "7f1eb523-f7ad-44b1-9d88-fb47b472450f")
@@ -106,7 +106,7 @@
 		)
 	)
 	(fp_text user "RX"
-		(at 2.54 -1.27 90)
+		(at 5.08 -1.27 90)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "d9470a86-8af5-4208-b0e1-7dc3ee430f30")
@@ -119,7 +119,7 @@
 		)
 	)
 	(fp_text user "GND"
-		(at 7.62 -1.27 90)
+		(at 0 -1.27 90)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "fb29fba9-c1b3-4986-8d45-aac9c1c22a9e")
@@ -202,13 +202,13 @@
 	)
 	(model "${KIPRJMOD}/CAD/GPS.wrl"
 		(offset
-			(xyz 0 0 11)
+			(xyz 7.5 0 11)
 		)
 		(scale
 			(xyz 0.395 0.395 0.395)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz 0 0 -90)
 		)
 	)
 )
